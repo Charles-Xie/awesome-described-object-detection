@@ -9,6 +9,10 @@ A curated list of papers and resources related to Described Object Detection, Op
 
 These methods are usually capable of tasks like both OVD and REC, though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers.
 
+- Contextual Object Detection with Multimodal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.18279) [[code](https://github.com/yuhangzang/ContextDET)
+
+- Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.15195) [[code]](https://github.com/shikras/shikra)
+
 - Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2303.05499) [[code (eval)]](https://github.com/IDEA-Research/GroundingDINO) (REC, OVD, etc.)
 
 - Universal Instance Perception as Object Discovery and Retrieval (CVPR 2023) [[paper]](https://arxiv.org/abs/2303.06674v2) [[code]](https://github.com/MasterBin-IIAU/UNINEXT) (REC, OVD, etc.)
