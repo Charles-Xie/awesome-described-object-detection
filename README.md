@@ -5,7 +5,24 @@ A curated list of papers and resources related to Described Object Detection, Op
 
 - Exposing the Troublemakers in Described Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)
 
+### Methods with Potential for DOD
+
+These methods are usually capable of tasks like both OVD and REC, though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers.
+
+- Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2303.05499) [[code (eval)]](https://github.com/IDEA-Research/GroundingDINO) (REC, OVD, etc.)
+
+- Universal Instance Perception as Object Discovery and Retrieval (CVPR 2023) [[paper]](https://arxiv.org/abs/2303.06674v2) [[code]](https://github.com/MasterBin-IIAU/UNINEXT) (REC, OVD, etc.)
+
+- MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding
+
+
+
 ## Open-Vocabulary Object Detection
+
+- Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection [[paper]](https://arxiv.org/abs/2308.15846)
+
+- How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.13177) [[dataset]](https://github.com/om-ai-lab/OVDEval)
+
 - Improving Pseudo Labels for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.06412)
 
 - Scaling Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.09683) [[code (jax)]](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)
@@ -23,6 +40,12 @@ A curated list of papers and resources related to Described Object Detection, Op
 - Prompt-Guided Transformers for End-to-End Open-Vocabulary Object Detection (arXiv 2023) [[paper]](https://arxiv.org/abs/2303.14386)
 
 - Open-Vocabulary Object Detection using Pseudo Caption Labels (arXiv 2023) [[paper]](https://arxiv.org/abs/2303.13040)
+
+- What Makes Good Open-Vocabulary Detector: A Disassembling Perspective (KDD Workshop) [[paper]](https://arxiv.org/abs/2309.00227)
+
+- EdaDet: Open-Vocabulary Object Detection Using Early Dense Alignment (ICCV 2023) [[paper]](https://arxiv.org/abs/2309.01151) [[website]](https://chengshiest.github.io/edadet/)
+
+- Contrastive Feature Masking Open-Vocabulary Vision Transformer (ICCV 2023) [[paper]](https://arxiv.org/abs/2309.00775)
 
 - Multi-Modal Classifiers for Open-Vocabulary Object Detection (ICML 2023) [[paper]](http://arxiv.org/abs/2306.05493) [[code (eval)]](https://github.com/prannaykaul/mm-ovod)
 
@@ -45,3 +68,31 @@ A curated list of papers and resources related to Described Object Detection, Op
 - Simple Open-Vocabulary Object Detection with Vision Transformers (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700714.pdf) [[code (jax)]](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit) [[code (huggingface)]](https://huggingface.co/docs/transformers/model_doc/owlvit)
 
 ## Referring Expression Comprehension
+
+- ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities [[paper]](https://arxiv.org/abs/2305.11172) [[code]](https://github.com/OFA-Sys/ONE-PEACE)
+
+- OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework (ICML 2022) [[paper]](https://arxiv.org/abs/2202.03052) [[code]](https://github.com/OFA-Sys/OFA)
+
+- PolyFormer: Referring Image Segmentation as Sequential Polygon Generation
+
+- DQ-DETR: Dual Query Detection Transformer for Phrase Extraction and Grounding
+
+- Referring Transformer: A One-step Approach to Multi-task Visual Grounding (NeurIPS 2021) [[paper]](https://arxiv.org/abs/2106.03089) [[code]](https://github.com/ubc-vision/RefTR)
+
+- Large-Scale Adversarial Training for Vision-and-Language Representation Learning
+
+- UNITER: UNiversal Image-TExt Representation Learning
+
+
+
+- Multi-task Collaborative Network for Joint Referring Expression Comprehension and Segmentation (CVPR 2020) [[paper]](https://arxiv.org/abs/2003.08813) [[code]](https://github.com/luogen1996/MCN)
+
+- MAttNet: Modular Attention Network for Referring Expression Comprehension (CVPR 2018) [[paper]](https://arxiv.org/abs/1801.08186) [[code]](https://github.com/lichengunc/MAttNet)
+
+
+
+## Related Resources
+
+Some similar resources like awesome lists:
+
+- [daqingliu/awesome-rec](https://github.com/daqingliu/awesome-rec) A curated list of REC papers. Not maintained in recent years.
