@@ -9,15 +9,21 @@ A curated list of papers and resources related to Described Object Detection, Op
 
 These methods are usually capable of tasks like both OVD and REC, though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers.
 
-- Contextual Object Detection with Multimodal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.18279) [[code]](https://github.com/yuhangzang/ContextDET)
+- Contextual Object Detection with Multimodal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.18279) [[code]](https://github.com/yuhangzang/ContextDET) [[demo]](https://huggingface.co/spaces/yuhangzang/ContextDet-Demo)
 
-- Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.15195) [[code]](https://github.com/shikras/shikra)
+- Kosmos-2: Grounding Multimodal Large Language Models to the World (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.14824) [[code]](https://github.com/microsoft/unilm/tree/master/kosmos-2) [[demo]](https://huggingface.co/spaces/ydshieh/Kosmos-2)
 
-- Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2303.05499) [[code (eval)]](https://github.com/IDEA-Research/GroundingDINO) (REC, OVD, etc.)
+- Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.12966) [[code]](https://github.com/QwenLM/Qwen-VL) [[demo]](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary)
+
+- Shikra: Unleashing Multimodal LLM’s Referential Dialogue Magic (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.15195) [[code]](https://github.com/shikras/shikra) [[demo]](http://demo.zhaozhang.net:7860/)
+
+- Grounding DINO: Marrying DINO with Grounded Pre-Training for Open-Set Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2303.05499) [[code (eval)]](https://github.com/IDEA-Research/GroundingDINO) (REC, OD, etc.)
 
 - Universal Instance Perception as Object Discovery and Retrieval (CVPR 2023) [[paper]](https://arxiv.org/abs/2303.06674v2) [[code]](https://github.com/MasterBin-IIAU/UNINEXT) (REC, OVD, etc.)
 
-- MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding
+- FindIt: Generalized Localization with Natural Language Queries (ECCV 2022) [[paper]](https://arxiv.org/abs/2203.17273) [[code]](https://github.com/google-research/google-research/tree/master/findit) (REC, OD, etc.)
+
+- MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding (ICCV 2021) [[paper]](https://arxiv.org/abs/2104.12763) [[code]](https://github.com/ashkamath/mdetr) [[website]](https://ashkamath.github.io/mdetr_page/)
 
 
 
@@ -77,17 +83,15 @@ These methods are usually capable of tasks like both OVD and REC, though they ar
 
 - OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework (ICML 2022) [[paper]](https://arxiv.org/abs/2202.03052) [[code]](https://github.com/OFA-Sys/OFA)
 
-- PolyFormer: Referring Image Segmentation as Sequential Polygon Generation
+- PolyFormer: Referring Image Segmentation as Sequential Polygon Generation (CVPR 2023) [[paper]](https://arxiv.org/abs/2302.07387) [[website]](https://polyformer.github.io/) [[code]](https://github.com/amazon-science/polygon-transformer) [[demo]](https://huggingface.co/spaces/koajoel/PolyFormer)
 
-- DQ-DETR: Dual Query Detection Transformer for Phrase Extraction and Grounding
+- DQ-DETR: Dual Query Detection Transformer for Phrase Extraction and Grounding (AAAI 2023) [[paper]](https://arxiv.org/abs/2211.15516) [[code]](https://github.com/IDEA-Research/DQ-DETR)
 
 - Referring Transformer: A One-step Approach to Multi-task Visual Grounding (NeurIPS 2021) [[paper]](https://arxiv.org/abs/2106.03089) [[code]](https://github.com/ubc-vision/RefTR)
 
-- Large-Scale Adversarial Training for Vision-and-Language Representation Learning
+- Large-Scale Adversarial Training for Vision-and-Language Representation Learning (NIPS 2023 Spotlight) [[paper]](https://arxiv.org/abs/2006.06195) [[code]](https://github.com/zhegan27/VILLA) [[poster]](https://zhegan27.github.io/Papers/villa_poster.pdf)
 
-- UNITER: UNiversal Image-TExt Representation Learning
-
-
+- UNITER: UNiversal Image-TExt Representation Learning (ECCV 2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750103.pdf) [[code]](https://github.com/ChenRocks/UNITER)
 
 - Multi-task Collaborative Network for Joint Referring Expression Comprehension and Segmentation (CVPR 2020) [[paper]](https://arxiv.org/abs/2003.08813) [[code]](https://github.com/luogen1996/MCN)
 
