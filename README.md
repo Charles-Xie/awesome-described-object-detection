@@ -29,7 +29,11 @@ These methods are usually capable of tasks like both OVD and REC, though they ar
 
 ## Open-Vocabulary Object Detection
 
-- Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection [[paper]](https://arxiv.org/abs/2308.15846)
+- Open-Vocabulary Object Detection With an Open Corpus (ICCV 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)
+
+- Distilling DETR with Visual-Linguistic Knowledge for Open-Vocabulary Object Detection (ICCV 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Distilling_DETR_with_Visual-Linguistic_Knowledge_for_Open-Vocabulary_Object_Detection_ICCV_2023_paper.pdf) [[code (not released)]](https://github.com/hikvision-research/opera)
+
+- Exploring Multi-Modal Contextual Knowledge for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.15846)
 
 - How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.13177) [[dataset]](https://github.com/om-ai-lab/OVDEval)
 
@@ -103,4 +107,6 @@ These methods are usually capable of tasks like both OVD and REC, though they ar
 
 Some similar resources like awesome lists:
 
-- [daqingliu/awesome-rec](https://github.com/daqingliu/awesome-rec) A curated list of REC papers. Not maintained in recent years.
+- [daqingliu/awesome-rec](https://github.com/daqingliu/awesome-rec): A curated list of REC papers. Not maintained in recent years.
+- [qy-feng/awesome-visual-grounding](https://github.com/qy-feng/awesome-visual-grounding): A curated list of visual grounding papers. Not maintained in recent years.
+- [MarkMoHR/Awesome-Referring-Image-Segmentation](https://github.com/MarkMoHR/Awesome-Referring-Image-Segmentation): A list of Referring Expression Segmentation (RES) papers and resources.
