@@ -1,6 +1,14 @@
 # awesome-described-object-detection
 A curated list of papers and resources related to Described Object Detection, Open-Vocabulary/Open-World Object Detection and Referring Expression Comprehension.
 
+## Table of Contents
+
+- [Described Object Detection](#described-object-detection)
+    * [Methods with Potential for DOD](#methods-with-potential-for-dod)
+- [Open-Vocabulary Object Detection](#open-vocabulary-object-detection)
+- [Referring Expression Comprehension](#referring-expression-comprehension)
+- [Related Surveys and Resources](#related-surveys-and-resources)
+
 ## Described Object Detection
 
 - Exposing the Troublemakers in Described Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)
@@ -25,6 +33,7 @@ These methods are usually capable of tasks like both OVD and REC, though they ar
 
 - MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding (ICCV 2021) [[paper]](https://arxiv.org/abs/2104.12763) [[code]](https://github.com/ashkamath/mdetr) [[website]](https://ashkamath.github.io/mdetr_page/)
 
+- GRiT: A Generative Region-to-text Transformer for Object Understanding (arxiv 2022) [[paper]](https://arxiv.org/abs/2212.00280) [[code]](https://github.com/JialianW/GRiT) [[demo (colab)]](https://colab.research.google.com/github/taskswithcode/GriT/blob/master/TWCGRiT.ipynb)
 
 
 ## Open-Vocabulary Object Detection
@@ -40,8 +49,6 @@ These methods are usually capable of tasks like both OVD and REC, though they ar
 - Improving Pseudo Labels for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.06412)
 
 - Scaling Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.09683) [[code (jax)]](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit)
-
-- A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.09220)
 
 - Unified Open-Vocabulary Dense Visual Prediction (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.08238)
 
@@ -102,11 +109,16 @@ These methods are usually capable of tasks like both OVD and REC, though they ar
 - MAttNet: Modular Attention Network for Referring Expression Comprehension (CVPR 2018) [[paper]](https://arxiv.org/abs/1801.08186) [[code]](https://github.com/lichengunc/MAttNet)
 
 
+## Related Surveys and Resources
 
-## Related Resources
+Some survey papers regarding relevant tasks (open-vocabulary learning, etc.)
 
-Some similar resources like awesome lists:
+- Towards Open Vocabulary Learning: A Survey (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.15880) [[repo]](https://github.com/jianzongwu/Awesome-Open-Vocabulary)
+- A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.09220)
+
+Some similar github repos like awesome lists:
 
 - [daqingliu/awesome-rec](https://github.com/daqingliu/awesome-rec): A curated list of REC papers. Not maintained in recent years.
 - [qy-feng/awesome-visual-grounding](https://github.com/qy-feng/awesome-visual-grounding): A curated list of visual grounding papers. Not maintained in recent years.
 - [MarkMoHR/Awesome-Referring-Image-Segmentation](https://github.com/MarkMoHR/Awesome-Referring-Image-Segmentation): A list of Referring Expression Segmentation (RES) papers and resources.
+- [TheShadow29/awesome-grounding](https://github.com/TheShadow29/awesome-grounding): A list of visual grounding (REC) paper roadmaps and datasets.
