@@ -1,5 +1,9 @@
-# awesome-described-object-detection
-A curated list of papers and resources related to Described Object Detection, Open-Vocabulary/Open-World Object Detection and Referring Expression Comprehension.
+[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+[![PR's Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](https://github.com/Charles-Xie/awesome-described-object-detection)
+
+# Awesome Described Object Detection
+
+A curated list of papers and resources related to [Described Object Detection](https://arxiv.org/abs/2307.12813), Open-Vocabulary/Open-World Object Detection and Referring Expression Comprehension.
 
 ## Table of Contents
 
@@ -9,13 +13,16 @@ A curated list of papers and resources related to Described Object Detection, Op
     - [Open-Vocabulary Object Detection](#open-vocabulary-object-detection)
     - [Referring Expression Comprehension](#referring-expression-comprehension)
 - [Awesome Datasets](#awesome-datasets)
+    - [Datasets for DOD and Similar Tasks](#datasets-for-dod-and-similar-tasks)
+    - [Detection datasets](#detection-datasets)
+    - [Grounding Datasets](#grounding-datasets)
 - [Related Surveys and Resources](#related-surveys-and-resources)
 
 # Awesome Papers
 
 ## Described Object Detection
 
-- Exposing the Troublemakers in Described Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)![Star](https://img.shields.io/github/stars/shikras/d-cube.svg?style=social&label=Star)
+- Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)![Star](https://img.shields.io/github/stars/shikras/d-cube.svg?style=social&label=Star)
 
 ### Methods with Potential for DOD
 
@@ -169,13 +176,29 @@ Expression Comprehension (CVPR 2020) [[paper]](https://openaccess.thecvf.com/con
 
 ## Datasets for DOD and Similar Tasks
 
+
+| Name | Paper | Website | Code | Train/Eval | Notes |
+|:-----|:-----:|:----:|:-----:|:-----:|:-----:|
+| $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval | - |
+
+
+
 ## Detection Datasets
+
+
+| Name | Paper | Website | Code | Train/Eval | Notes |
+|:-----|:-----:|:----:|:-----:|:-----:|:-----:|
+| **BigDetection** | [BigDetection: A Large-scale Benchmark for Improved Object Detector Pre-training](https://arxiv.org/abs/2203.13249) | - | [Github](https://github.com/amazon-science/bigdetection) | detector pretraining | - |
+| **LVIS** | [LVIS: A Dataset for Large Vocabulary Instance Segmentation](https://arxiv.org/abs/1908.03195) | [Link](https://www.lvisdataset.org/) | [Github](https://github.com/lvis-dataset/lvis-api) | train&eval | long-tail; federated annotation; also used for OVD |
+| **COCO** | [Microsoft COCO: Common Objects in Context](https://arxiv.org/abs/1405.0312) | [Link](https://cocodataset.org/#home) | [Github](https://github.com/cocodataset/cocoapi) | train&eval | also used for OVD |
+
 
 ## Grounding Datasets
 
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| **GRiT** | [GRIT: General Robust Image Task Benchmark](https://arxiv.org/abs/2204.13653) | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only |  |
+| **GRiT** | [GRIT: General Robust Image Task Benchmark](https://arxiv.org/abs/2204.13653) | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
+
 
 
 
@@ -200,7 +223,7 @@ Some similar github repos like awesome lists:
 
 ```bibtex
 @inproceedings{xie2023DOD,
-  title={Exposing the Troublemakers in Described Object Detection},
+  title={Described Object Detection: Liberating Object Detection with Flexible Expressions},
   author={Xie, Chi and Zhang, Zhao and Wu, Yixuan and Zhu, Feng and Zhao, Rui and Liang, Shuang},
   booktitle={Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS)},
   year={2023}
