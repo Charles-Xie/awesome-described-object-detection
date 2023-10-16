@@ -28,6 +28,8 @@ A curated list of papers and resources related to [Described Object Detection](h
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
 
+- Ferret: Refer and Ground Anything Anywhere at Any Granularity [[paper]](https://arxiv.org/abs/2310.07704) [[code]](https://github.com/apple/ml-ferret)![Star](https://img.shields.io/github/stars/apple/ml-ferret.svg?style=social&label=Star)
+
 - Contextual Object Detection with Multimodal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.18279) [[demo]](https://huggingface.co/spaces/yuhangzang/ContextDet-Demo) [[code]](https://github.com/yuhangzang/ContextDET)![Star](https://img.shields.io/github/stars/yuhangzang/ContextDET.svg?style=social&label=Star)
 
 - Kosmos-2: Grounding Multimodal Large Language Models to the World (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.14824) [[demo]](https://huggingface.co/spaces/ydshieh/Kosmos-2) [[code]](https://github.com/microsoft/unilm/tree/master/kosmos-2)![Star](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social&label=Star)
@@ -70,7 +72,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Open-Vocabulary Object Detection using Pseudo Caption Labels (arXiv 2023) [[paper]](https://arxiv.org/abs/2303.13040)
 
-- What Makes Good Open-Vocabulary Detector: A Disassembling Perspective (KDD Workshop) [[paper]](https://arxiv.org/abs/2309.00227)
+- What Makes Good Open-Vocabulary Detector: A Disassembling Perspective (KDD 2023 Workshop) [[paper]](https://arxiv.org/abs/2309.00227)
 
 - Open-Vocabulary Object Detection With an Open Corpus (ICCV 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)
 
@@ -136,17 +138,41 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Referring Expression Comprehension
 
-- ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities [[paper]](https://arxiv.org/abs/2305.11172) [[code]](https://github.com/OFA-Sys/ONE-PEACE)
+- VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders (arxiv 2023) [[paper]](https://arxiv.org/abs/2309.01141)
+
+- Fine-Grained Visual Prompting (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.04356)
+
+- ONE-PEACE: Exploring One General Representation Model Toward Unlimited Modalities (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.11172) [[code]](https://github.com/OFA-Sys/ONE-PEACE)
+
+- CLIP-VG: Self-paced Curriculum Adapting of CLIP for Visual Grounding (TMM 2023) [[paper]](https://arxiv.org/abs/2305.08685) [[code]](https://github.com/linhuixiao/CLIP-VG)
+
+- Unleashing Text-to-Image Diffusion Models for Visual Perception (ICCV 2023) [[paper]](https://arxiv.org/abs/2303.02153) [[website]](https://vpd.ivg-research.xyz/) [[code]](https://github.com/wl-zhao/VPD)
+
+- Focusing On Targets For Improving Weakly Supervised Visual Grounding (ICASSP 2023) [[paper]](https://arxiv.org/abs/2302.11252)
 
 - Unified-IO: A Unified Model for Vision, Language, and Multi-Modal Tasks (ICLR 2023) [[paper]](https://arxiv.org/abs/2206.08916) [[code (eval)]](https://github.com/allenai/unified-io-inference)
 
-- OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework (ICML 2022) [[paper]](https://arxiv.org/abs/2202.03052) [[code]](https://github.com/OFA-Sys/OFA)
-
 - PolyFormer: Referring Image Segmentation as Sequential Polygon Generation (CVPR 2023) [[paper]](https://arxiv.org/abs/2302.07387) [[website]](https://polyformer.github.io/) [[code]](https://github.com/amazon-science/polygon-transformer) [[demo]](https://huggingface.co/spaces/koajoel/PolyFormer)
+
+- Language Adaptive Weight Generation for Multi-task Visual Grounding (CVPR 2023) [[paper]](https://arxiv.org/abs/2306.04652)
+
+- Referring Expression Comprehension Using Language Adaptive Inference (AAAI 2023) [[paper]](https://arxiv.org/abs/2306.04451)
 
 - DQ-DETR: Dual Query Detection Transformer for Phrase Extraction and Grounding (AAAI 2023) [[paper]](https://arxiv.org/abs/2211.15516) [[code]](https://github.com/IDEA-Research/DQ-DETR)
 
-- Correspondence Matters for Video Referring Expression Comprehension (https://dl.acm.org/doi/abs/10.1145/3503161.3547756) [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3547756)
+- One for All: One-stage Referring Expression Comprehension with Dynamic Reasoning (arxiv 2022) [[paper]](https://arxiv.org/abs/2208.00361)
+
+- Self-paced Multi-grained Cross-modal Interaction Modeling for Referring Expression Comprehension (arxiv 2022) [[paper]](https://arxiv.org/abs/2204.09957)
+
+- SiRi: A Simple Selective Retraining Mechanism for Transformer-based Visual Grounding (ECCV 2022) [[paper]](https://arxiv.org/abs/2207.13325)
+
+- Towards Unifying Reference Expression Generation and Comprehension (EMNLP 2022) [[paper]](https://arxiv.org/abs/2210.13076)
+
+- Correspondence Matters for Video Referring Expression Comprehension (ACM MM 2022) [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3547756)
+
+- OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework (ICML 2022) [[paper]](https://arxiv.org/abs/2202.03052) [[code]](https://github.com/OFA-Sys/OFA)
+
+- From Coarse to Fine-grained Concept based Discrimination for Phrase Detection (CVPR 2023 Workshop) [[paper]](https://arxiv.org/abs/2112.03237)
 
 - MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding (ICCV 2021) [[paper]](https://arxiv.org/abs/2104.12763) [[website]](https://ashkamath.github.io/mdetr_page/) [[code]](https://github.com/ashkamath/mdetr)![Star](https://img.shields.io/github/stars/ashkamath/mdetr.svg?style=social&label=Star)
 
@@ -197,9 +223,11 @@ Expression Comprehension (CVPR 2020) [[paper]](https://openaccess.thecvf.com/con
 
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| **GRiT** | [GRIT: General Robust Image Task Benchmark](https://arxiv.org/abs/2204.13653) | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
-
-
+| **GRiT** | [GRIT: General Robust Image Task Benchmark (arxiv 2022)](https://arxiv.org/abs/2204.13653) | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
+| **RefCOCOg** | [Generation and Comprehension of Unambiguous Object Descriptions (CVPR 2016)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf) | - | [Github](https://github.com/mjhucla/Google_Refexp_toolbox) | train&eval | images from COCO |
+| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | - | [Github](https://github.com/lichengunc/refer) | train&eval | - |
+| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
+| **RefCOCO** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
 
 
 # Related Surveys and Resources
