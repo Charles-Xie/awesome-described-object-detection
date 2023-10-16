@@ -156,6 +156,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Language Adaptive Weight Generation for Multi-task Visual Grounding (CVPR 2023) [[paper]](https://arxiv.org/abs/2306.04652)
 
+- From Coarse to Fine-grained Concept based Discrimination for Phrase Detection (CVPR 2023 Workshop) [[paper]](https://arxiv.org/abs/2112.03237)
+
 - Referring Expression Comprehension Using Language Adaptive Inference (AAAI 2023) [[paper]](https://arxiv.org/abs/2306.04451)
 
 - DQ-DETR: Dual Query Detection Transformer for Phrase Extraction and Grounding (AAAI 2023) [[paper]](https://arxiv.org/abs/2211.15516) [[code]](https://github.com/IDEA-Research/DQ-DETR)
@@ -172,13 +174,20 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework (ICML 2022) [[paper]](https://arxiv.org/abs/2202.03052) [[code]](https://github.com/OFA-Sys/OFA)
 
-- From Coarse to Fine-grained Concept based Discrimination for Phrase Detection (CVPR 2023 Workshop) [[paper]](https://arxiv.org/abs/2112.03237)
+- Towards Language-guided Visual Recognition via Dynamic Convolutions (arxiv 2021) [[paper]](https://arxiv.org/abs/2110.08797)
 
-- MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding (ICCV 2021) [[paper]](https://arxiv.org/abs/2104.12763) [[website]](https://ashkamath.github.io/mdetr_page/) [[code]](https://github.com/ashkamath/mdetr)![Star](https://img.shields.io/github/stars/ashkamath/mdetr.svg?style=social&label=Star)
+- MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding (ICCV 2021) [[paper]](https://arxiv.org/abs/2104.12763) [[website]](https://ashkamath.github.io/mdetr_page/) [[code]](https://github.com/ashkamath/mdetr)
+<!-- ![Star](https://img.shields.io/github/stars/ashkamath/mdetr.svg?style=social&label=Star) -->
 
 - Referring Transformer: A One-step Approach to Multi-task Visual Grounding (NeurIPS 2021) [[paper]](https://arxiv.org/abs/2106.03089) [[code]](https://github.com/ubc-vision/RefTR)
 
-- Large-Scale Adversarial Training for Vision-and-Language Representation Learning (NIPS 2023 Spotlight) [[paper]](https://arxiv.org/abs/2006.06195) [[code]](https://github.com/zhegan27/VILLA) [[poster]](https://zhegan27.github.io/Papers/villa_poster.pdf)
+- Look Before You Leap: Learning Landmark Features for One-Stage Visual Grounding (CVPR 2021) [[paper]](https://arxiv.org/abs/2104.04386) [[code]](https://github.com/svip-lab/LBYLNet)
+
+- Co-Grounding Networks with Semantic Attention for Referring Expression Comprehension in Videos (CVPR 2021) [[paper]](https://arxiv.org/abs/2103.12346) [[code]](https://github.com/SijieSong/CVPR21-Cogrounding_semantic_attention)
+
+- Large-Scale Adversarial Training for Vision-and-Language Representation Learning (NIPS 2020 Spotlight) [[paper]](https://arxiv.org/abs/2006.06195) [[code]](https://github.com/zhegan27/VILLA) [[poster]](https://zhegan27.github.io/Papers/villa_poster.pdf)
+
+- Improving One-stage Visual Grounding by Recursive Sub-query Construction (ECCV 2020) [[paper]](https://arxiv.org/abs/2008.01059)
 
 - UNITER: UNiversal Image-TExt Representation Learning (ECCV 2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750103.pdf) [[code]](https://github.com/ChenRocks/UNITER)
 
@@ -206,7 +215,6 @@ Expression Comprehension (CVPR 2020) [[paper]](https://openaccess.thecvf.com/con
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
 | $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval | - |
-
 
 
 ## Detection Datasets
