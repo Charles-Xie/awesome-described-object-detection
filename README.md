@@ -5,6 +5,8 @@
 
 A curated list of papers and resources related to [Described Object Detection](https://arxiv.org/abs/2307.12813), Open-Vocabulary/Open-World Object Detection and Referring Expression Comprehension.
 
+If you find any work or resources missing, please send a [pull requests](https://github.com/Charles-Xie/awesome-described-object-detection/pulls). Thanks!
+
 ## Table of Contents
 
 - [Awesome Papers](#awesome-papers)
@@ -209,33 +211,42 @@ Expression Comprehension (CVPR 2020) [[paper]](https://openaccess.thecvf.com/con
 
 # Awesome Datasets
 
+This part is still in progress.
+
 ## Datasets for DOD and Similar Tasks
 
 
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval | - |
+| $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval | - |
 
 
 ## Detection Datasets
 
 
-| Name | Paper | Website | Code | Train/Eval | Notes |
-|:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| **BigDetection** | [BigDetection: A Large-scale Benchmark for Improved Object Detector Pre-training](https://arxiv.org/abs/2203.13249) | - | [Github](https://github.com/amazon-science/bigdetection) | detector pretraining | - |
-| **LVIS** | [LVIS: A Dataset for Large Vocabulary Instance Segmentation](https://arxiv.org/abs/1908.03195) | [Link](https://www.lvisdataset.org/) | [Github](https://github.com/lvis-dataset/lvis-api) | train&eval | long-tail; federated annotation; also used for OVD |
-| **COCO** | [Microsoft COCO: Common Objects in Context](https://arxiv.org/abs/1405.0312) | [Link](https://cocodataset.org/#home) | [Github](https://github.com/cocodataset/cocoapi) | train&eval | also used for OVD |
+| Name | Paper | Task | Website | Code | Train/Eval | Notes |
+|:-----|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|
+| **Bamboo** | [Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy](https://arxiv.org/abs/2203.07845) | OD | - | [Github](https://github.com/ZhangYuanhan-AI/Bamboo) | detector pretraining | build upon public datasets; 69M image classification annotations and 32M object bounding boxes |
+| **BigDetection** | [BigDetection: A Large-scale Benchmark for Improved Object Detector Pre-training (CVPR 2022 workshop)](https://arxiv.org/abs/2203.13249) | OD | - | [Github](https://github.com/amazon-science/bigdetection) | detector pretraining | - |
+| **Object365** | [Objects365: A Large-Scale, High-Quality Dataset for Object Detection (ICCV 2019)](https://openaccess.thecvf.com/content_ICCV_2019/html/Shao_Objects365_A_Large-Scale_High-Quality_Dataset_for_Object_Detection_ICCV_2019_paper.html) | OD | [Link](https://www.objects365.org) | [BAAI platform for download](https://data.baai.ac.cn/details/Objects365_2020) | detector pretraining; train&eval | - |
+| **OpenImages** | - | OD | [Link](https://storage.googleapis.com/openimages/web/index.html) | [Tensorflow API](https://www.tensorflow.org/datasets/catalog/open_images_v4) | train&eval | - |
+| **LVIS** | [LVIS: A Dataset for Large Vocabulary Instance Segmentation (CVPR 2019)](https://arxiv.org/abs/1908.03195) | OD&OVD | [Link](https://www.lvisdataset.org/) | [Github](https://github.com/lvis-dataset/lvis-api) | train&eval | long-tail; federated annotation; also used for OVD |
+| **COCO** | [Microsoft COCO: Common Objects in Context (ECCV 2014)](https://arxiv.org/abs/1405.0312) | OD&OVD | [Link](https://cocodataset.org/#home) | [Github](https://github.com/cocodataset/cocoapi) | train&eval | also used for OVD |
+| **VOC** | [The PASCAL Visual Object Classes (VOC) Challenge (IJCV 2010)](https://link.springer.com/article/10.1007/s11263-009-0275-4) | OD | [Link](http://host.robots.ox.ac.uk/pascal/VOC/index.html) | - | train&eval | - |
 
 
 ## Grounding Datasets
-
-| Name | Paper | Website | Code | Train/Eval | Notes |
-|:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| **GRiT** | [GRIT: General Robust Image Task Benchmark (arxiv 2022)](https://arxiv.org/abs/2204.13653) | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
-| **RefCOCOg** | [Generation and Comprehension of Unambiguous Object Descriptions (CVPR 2016)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf) | - | [Github](https://github.com/mjhucla/Google_Refexp_toolbox) | train&eval | images from COCO |
-| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | - | [Github](https://github.com/lichengunc/refer) | train&eval | - |
-| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
-| **RefCOCO** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
+| Name | Paper | Task | Website | Code | Train/Eval | Notes |
+|:-----|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|
+| **GRIT** | [Ferret: Refer and Ground Anything Anywhere at Any Granularity (arxiv 2023)](https://arxiv.org/abs/2310.07704) | ground-and-refer | - | [Github](https://github.com/apple/ml-ferret) | instruction tuning | - |
+| **Ferret-Bench** | [Ferret: Refer and Ground Anything Anywhere at Any Granularity (arxiv 2023)](https://arxiv.org/abs/2310.07704) | ground-and-refer | - | [Github](https://github.com/apple/ml-ferret) | eval | - |
+| **GRiT** | [GRIT: General Robust Image Task Benchmark (arxiv 2022)](https://arxiv.org/abs/2204.13653) | REC | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
+| **Cops-Ref** | [Cops-Ref: A new Dataset and Task on Compositional Referring Expression Comprehension (CVPR 2020)](https://arxiv.org/abs/2003.00403) | Compositional REC | - | [Github](https://github.com/zfchenUnique/Cops-Ref) | eval | A variant of REC |
+| **Visual Genome** | [Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations (IJCV 2017)](https://link.springer.com/article/10.1007/s11263-016-0981-7) | OD&Phrase Grounding | [Link](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) | [Github](https://github.com/ranjaykrishna/visual_genome_python_driver) | a bunch of multi-modal tasks |
+| **RefCOCOg** | [Generation and Comprehension of Unambiguous Object Descriptions (CVPR 2016)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf) | REC |  - | [Github](https://github.com/mjhucla/Google_Refexp_toolbox) | train&eval | images from COCO |
+| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train&eval | - |
+| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
+| **RefCOCO** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
 
 
 # Related Surveys and Resources
@@ -244,6 +255,7 @@ Some survey papers regarding relevant tasks (open-vocabulary learning, etc.)
 
 - Towards Open Vocabulary Learning: A Survey (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.15880) [[repo]](https://github.com/jianzongwu/Awesome-Open-Vocabulary)
 - A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.09220)
+- Referring Expression Comprehension: A Survey of Methods and Datasets (TMM 2020) [[paper]](https://arxiv.org/abs/2007.09554)
 
 Some similar github repos like awesome lists:
 
