@@ -52,6 +52,10 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Open-Vocabulary Object Detection
 
+- LP-OVOD: Open-Vocabulary Object Detection by Linear Probing (WACV 2024) [[paper]](https://arxiv.org/abs/2310.17109) [[code (soon)]](https://github.com/VinAIResearch/LP-OVOD)
+
+- CoDet: Co-Occurrence Guided Region-Word Alignment for Open-Vocabulary Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2310.16667) [[code]](https://github.com/CVMI-Lab/CoDet)
+
 - DST-Det: Simple Dynamic Self-Training for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.01393) [[code (soon)]](https://github.com/xushilin1/dst-det)
 
 - Detection-Oriented Image-Text Pretraining for Open-Vocabulary Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00161)
@@ -139,6 +143,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 - Open-Vocabulary Object Detection Using Captions (CVPR 2021) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zareian_Open-Vocabulary_Object_Detection_Using_Captions_CVPR_2021_paper.pdf) [[code]](https://github.com/alirezazareian/ovr-cnn)
 
 ## Referring Expression Comprehension
+
+- OV-VG: A Benchmark for Open-Vocabulary Visual Grounding (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.14374) [[code]](https://github.com/cv516Buaa/OV-VG)
 
 - VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders (arxiv 2023) [[paper]](https://arxiv.org/abs/2309.01141)
 
