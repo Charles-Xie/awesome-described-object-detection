@@ -13,7 +13,7 @@ If you find any work or resources missing, please send a [pull requests](https:/
     - [Described Object Detection](#described-object-detection)
         - [Methods with Potential for DOD](#methods-with-potential-for-dod)
     - [Open-Vocabulary Object Detection](#open-vocabulary-object-detection)
-    - [Referring Expression Comprehension](#referring-expression-comprehension)
+    - [Referring Expression Comprehension/Visual Grounding](#referring-expression-comprehensionvisual-grounding)
 - [Awesome Datasets](#awesome-datasets)
     - [Datasets for DOD and Similar Tasks](#datasets-for-dod-and-similar-tasks)
     - [Detection datasets](#detection-datasets)
@@ -142,11 +142,13 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Open-Vocabulary Object Detection Using Captions (CVPR 2021) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zareian_Open-Vocabulary_Object_Detection_Using_Captions_CVPR_2021_paper.pdf) [[code]](https://github.com/alirezazareian/ovr-cnn)
 
-## Referring Expression Comprehension
+## Referring Expression Comprehension/Visual Grounding
 
 - OV-VG: A Benchmark for Open-Vocabulary Visual Grounding (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.14374) [[code]](https://github.com/cv516Buaa/OV-VG)
 
 - VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders (arxiv 2023) [[paper]](https://arxiv.org/abs/2309.01141)
+
+- Language-Guided Diffusion Model for Visual Grounding (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.09599) [[code (soon)]](https://github.com/iQua/vgbase/tree/DiffusionVG)
 
 - Fine-Grained Visual Prompting (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.04356)
 
@@ -162,6 +164,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - PolyFormer: Referring Image Segmentation as Sequential Polygon Generation (CVPR 2023) [[paper]](https://arxiv.org/abs/2302.07387) [[website]](https://polyformer.github.io/) [[code]](https://github.com/amazon-science/polygon-transformer) [[demo]](https://huggingface.co/spaces/koajoel/PolyFormer)
 
+- Advancing Visual Grounding With Scene Knowledge: Benchmark and Method (CVPR 2023) [[paper]](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Advancing_Visual_Grounding_With_Scene_Knowledge_Benchmark_and_Method_CVPR_2023_paper.pdf) [[code]](https://github.com/zhjohnchan/SK-VG)
+
 - Language Adaptive Weight Generation for Multi-task Visual Grounding (CVPR 2023) [[paper]](https://arxiv.org/abs/2306.04652)
 
 - From Coarse to Fine-grained Concept based Discrimination for Phrase Detection (CVPR 2023 Workshop) [[paper]](https://arxiv.org/abs/2112.03237)
@@ -174,28 +178,42 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Self-paced Multi-grained Cross-modal Interaction Modeling for Referring Expression Comprehension (arxiv 2022) [[paper]](https://arxiv.org/abs/2204.09957)
 
+- SeqTR: A Simple yet Universal Network for Visual Grounding (ECCV 2022) [[paper]](https://arxiv.org/abs/2203.16265) [[code]](https://github.com/sean-zhuh/SeqTR)
+
 - SiRi: A Simple Selective Retraining Mechanism for Transformer-based Visual Grounding (ECCV 2022) [[paper]](https://arxiv.org/abs/2207.13325)
 
 - Towards Unifying Reference Expression Generation and Comprehension (EMNLP 2022) [[paper]](https://arxiv.org/abs/2210.13076)
 
 - Correspondence Matters for Video Referring Expression Comprehension (ACM MM 2022) [[paper]](https://dl.acm.org/doi/abs/10.1145/3503161.3547756)
 
+- Visual Grounding with Transformers (ICME 2022) [[paper]](https://arxiv.org/abs/2105.04281) [[code]](https://github.com/usr922/vgtr)
+
+- Improving Visual Grounding with Visual-Linguistic Verification and Iterative Reasoning (CVPR 2022) [[paper]](https://arxiv.org/abs/2205.00272) [[code]](https://github.com/yangli18/VLTVG)
+
+- Multi-Modal Dynamic Graph Transformer for Visual Grounding (CVPR 2022) [[paper]](https://github.com/iQua/M-DGT) [[code]](https://github.com/iQua/M-DGT)
+
+- Pseudo-Q: Generating Pseudo Language Queries for Visual Grounding (CVPR 2022) [[paper]](https://arxiv.org/abs/2203.08481) [[code]](https://github.com/LeapLabTHU/Pseudo-Q)
+
 - OFA: Unifying Architectures, Tasks, and Modalities Through a Simple Sequence-to-Sequence Learning Framework (ICML 2022) [[paper]](https://arxiv.org/abs/2202.03052) [[code]](https://github.com/OFA-Sys/OFA)
 
 - Towards Language-guided Visual Recognition via Dynamic Convolutions (arxiv 2021) [[paper]](https://arxiv.org/abs/2110.08797)
 
+- Referring Transformer: A One-step Approach to Multi-task Visual Grounding (NeurIPS 2021) [[paper]](https://arxiv.org/abs/2106.03089) [[code]](https://github.com/ubc-vision/RefTR)
+
+- InstanceRefer: Cooperative Holistic Understanding for Visual Grounding on Point Clouds through Instance Multi-level Contextual Referring (ICCV 2021) [[paper]](https://openaccess.thecvf.com/content/ICCV2021/papers/Yuan_InstanceRefer_Cooperative_Holistic_Understanding_for_Visual_Grounding_on_Point_Clouds_ICCV_2021_paper.pdf) [[code]](https://github.com/CurryYuan/InstanceRefer)
+
 - MDETR -- Modulated Detection for End-to-End Multi-Modal Understanding (ICCV 2021) [[paper]](https://arxiv.org/abs/2104.12763) [[website]](https://ashkamath.github.io/mdetr_page/) [[code]](https://github.com/ashkamath/mdetr)
 <!-- ![Star](https://img.shields.io/github/stars/ashkamath/mdetr.svg?style=social&label=Star) -->
-
-- Referring Transformer: A One-step Approach to Multi-task Visual Grounding (NeurIPS 2021) [[paper]](https://arxiv.org/abs/2106.03089) [[code]](https://github.com/ubc-vision/RefTR)
 
 - Look Before You Leap: Learning Landmark Features for One-Stage Visual Grounding (CVPR 2021) [[paper]](https://arxiv.org/abs/2104.04386) [[code]](https://github.com/svip-lab/LBYLNet)
 
 - Co-Grounding Networks with Semantic Attention for Referring Expression Comprehension in Videos (CVPR 2021) [[paper]](https://arxiv.org/abs/2103.12346) [[code]](https://github.com/SijieSong/CVPR21-Cogrounding_semantic_attention)
 
-- Large-Scale Adversarial Training for Vision-and-Language Representation Learning (NIPS 2020 Spotlight) [[paper]](https://arxiv.org/abs/2006.06195) [[code]](https://github.com/zhegan27/VILLA) [[poster]](https://zhegan27.github.io/Papers/villa_poster.pdf)
+- Relation-aware Instance Refinement for Weakly Supervised Visual Grounding (CVPR 2021) [[paper]](https://arxiv.org/abs/2103.12989) [[code]](https://github.com/youngfly11/ReIR-WeaklyGrounding.pytorch)
 
-- Improving One-stage Visual Grounding by Recursive Sub-query Construction (ECCV 2020) [[paper]](https://arxiv.org/abs/2008.01059)
+- Large-Scale Adversarial Training for Vision-and-Language Representation Learning (NeurIPS 2020) [[paper]](https://arxiv.org/abs/2006.06195) [[code]](https://github.com/zhegan27/VILLA) [[poster]](https://zhegan27.github.io/Papers/villa_poster.pdf)
+
+- Improving One-stage Visual Grounding by Recursive Sub-query Construction (ECCV 2020) [[paper]](https://arxiv.org/abs/2008.01059) [[code]](https://github.com/zyang-ur/ReSC)
 
 - UNITER: UNiversal Image-TExt Representation Learning (ECCV 2020) [[paper]](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123750103.pdf) [[code]](https://github.com/ChenRocks/UNITER)
 
@@ -206,7 +224,13 @@ Expression Comprehension (CVPR 2020) [[paper]](https://openaccess.thecvf.com/con
 
 - Dynamic Graph Attention for Referring Expression Comprehension (ICCV 2019) [[paper]](https://openaccess.thecvf.com/content_ICCV_2019/html/Yang_Dynamic_Graph_Attention_for_Referring_Expression_Comprehension_ICCV_2019_paper.html)
 
+- A Fast and Accurate One-Stage Approach to Visual Grounding (ICCV 2019) [[paper]](https://arxiv.org/abs/1908.06354) [[code]](https://github.com/zyang-ur/onestage_grounding)
+
 - Neighbourhood Watch: Referring Expression Comprehension via Language-Guided Graph Attention Networks (CVPR 2019) [[paper]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Wang_Neighbourhood_Watch_Referring_Expression_Comprehension_via_Language-Guided_Graph_Attention_Networks_CVPR_2019_paper.pdf)
+
+- Interactive Visual Grounding of Referring Expressions for Human-Robot Interaction (RSS 2018) [[paper]](https://www.roboticsproceedings.org/rss14/p28.pdf) [[code]](https://github.com/MohitShridhar/ingress)
+
+- Rethinking Diversified and Discriminative Proposal Generation for Visual Grounding (IJCAI 2018) [[paper]](https://arxiv.org/abs/1805.03508) [[code]](https://github.com/XiangChenchao/DDPN)
 
 - MAttNet: Modular Attention Network for Referring Expression Comprehension (CVPR 2018) [[paper]](https://arxiv.org/abs/1801.08186) [[code]](https://github.com/lichengunc/MAttNet)
 
@@ -224,7 +248,7 @@ This part is still in progress.
 
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval | - |
+| $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval only | - |
 
 
 ## Detection Datasets
@@ -234,25 +258,26 @@ This part is still in progress.
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|
 | **Bamboo** | [Bamboo: Building Mega-Scale Vision Dataset Continually with Human-Machine Synergy](https://arxiv.org/abs/2203.07845) | OD | - | [Github](https://github.com/ZhangYuanhan-AI/Bamboo) | detector pretraining | build upon public datasets; 69M image classification annotations and 32M object bounding boxes |
 | **BigDetection** | [BigDetection: A Large-scale Benchmark for Improved Object Detector Pre-training (CVPR 2022 workshop)](https://arxiv.org/abs/2203.13249) | OD | - | [Github](https://github.com/amazon-science/bigdetection) | detector pretraining | - |
-| **Object365** | [Objects365: A Large-Scale, High-Quality Dataset for Object Detection (ICCV 2019)](https://openaccess.thecvf.com/content_ICCV_2019/html/Shao_Objects365_A_Large-Scale_High-Quality_Dataset_for_Object_Detection_ICCV_2019_paper.html) | OD | [Link](https://www.objects365.org) | [BAAI platform for download](https://data.baai.ac.cn/details/Objects365_2020) | detector pretraining; train&eval | - |
-| **OpenImages** | - | OD | [Link](https://storage.googleapis.com/openimages/web/index.html) | [Tensorflow API](https://www.tensorflow.org/datasets/catalog/open_images_v4) | train&eval | - |
-| **LVIS** | [LVIS: A Dataset for Large Vocabulary Instance Segmentation (CVPR 2019)](https://arxiv.org/abs/1908.03195) | OD&OVD | [Link](https://www.lvisdataset.org/) | [Github](https://github.com/lvis-dataset/lvis-api) | train&eval | long-tail; federated annotation; also used for OVD |
-| **COCO** | [Microsoft COCO: Common Objects in Context (ECCV 2014)](https://arxiv.org/abs/1405.0312) | OD&OVD | [Link](https://cocodataset.org/#home) | [Github](https://github.com/cocodataset/cocoapi) | train&eval | also used for OVD |
-| **VOC** | [The PASCAL Visual Object Classes (VOC) Challenge (IJCV 2010)](https://link.springer.com/article/10.1007/s11263-009-0275-4) | OD | [Link](http://host.robots.ox.ac.uk/pascal/VOC/index.html) | - | train&eval | - |
+| **Object365** | [Objects365: A Large-Scale, High-Quality Dataset for Object Detection (ICCV 2019)](https://openaccess.thecvf.com/content_ICCV_2019/html/Shao_Objects365_A_Large-Scale_High-Quality_Dataset_for_Object_Detection_ICCV_2019_paper.html) | OD | [Link](https://www.objects365.org) | [BAAI platform for download](https://data.baai.ac.cn/details/Objects365_2020) | detector pretraining; train & eval | - |
+| **OpenImages** | - | OD | [Link](https://storage.googleapis.com/openimages/web/index.html) | [Tensorflow API](https://www.tensorflow.org/datasets/catalog/open_images_v4) | train & eval | - |
+| **LVIS** | [LVIS: A Dataset for Large Vocabulary Instance Segmentation (CVPR 2019)](https://arxiv.org/abs/1908.03195) | OD&OVD | [Link](https://www.lvisdataset.org/) | [Github](https://github.com/lvis-dataset/lvis-api) | train & eval | long-tail; federated annotation; also used for OVD |
+| **COCO** | [Microsoft COCO: Common Objects in Context (ECCV 2014)](https://arxiv.org/abs/1405.0312) | OD&OVD | [Link](https://cocodataset.org/#home) | [Github](https://github.com/cocodataset/cocoapi) | train & eval | also used for OVD |
+| **VOC** | [The PASCAL Visual Object Classes (VOC) Challenge (IJCV 2010)](https://link.springer.com/article/10.1007/s11263-009-0275-4) | OD | [Link](http://host.robots.ox.ac.uk/pascal/VOC/index.html) | - | train & eval | - |
 
 
 ## Grounding Datasets
 | Name | Paper | Task | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|:-----:|
 | **GRIT** | [Ferret: Refer and Ground Anything Anywhere at Any Granularity (arxiv 2023)](https://arxiv.org/abs/2310.07704) | ground-and-refer | - | [Github](https://github.com/apple/ml-ferret) | instruction tuning | - |
-| **Ferret-Bench** | [Ferret: Refer and Ground Anything Anywhere at Any Granularity (arxiv 2023)](https://arxiv.org/abs/2310.07704) | ground-and-refer | - | [Github](https://github.com/apple/ml-ferret) | eval | - |
+| **Ferret-Bench** | [Ferret: Refer and Ground Anything Anywhere at Any Granularity (arxiv 2023)](https://arxiv.org/abs/2310.07704) | ground-and-refer | - | [Github](https://github.com/apple/ml-ferret) | eval only | - |
+| **SK-VG** | [Advancing Visual Grounding With Scene Knowledge: Benchmark and Method (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Advancing_Visual_Grounding_With_Scene_Knowledge_Benchmark_and_Method_CVPR_2023_paper.pdf) | REC | - | [Github](https://github.com/zhjohnchan/SK-VG) | train & eval | scene knowledge in natural language is required |
 | **GRiT** | [GRIT: General Robust Image Task Benchmark (arxiv 2022)](https://arxiv.org/abs/2204.13653) | REC | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
-| **Cops-Ref** | [Cops-Ref: A new Dataset and Task on Compositional Referring Expression Comprehension (CVPR 2020)](https://arxiv.org/abs/2003.00403) | Compositional REC | - | [Github](https://github.com/zfchenUnique/Cops-Ref) | eval | A variant of REC |
-| **Visual Genome** | [Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations (IJCV 2017)](https://link.springer.com/article/10.1007/s11263-016-0981-7) | OD&Phrase Grounding | [Link](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) | [Github](https://github.com/ranjaykrishna/visual_genome_python_driver) | a bunch of multi-modal tasks |
-| **RefCOCOg** | [Generation and Comprehension of Unambiguous Object Descriptions (CVPR 2016)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf) | REC |  - | [Github](https://github.com/mjhucla/Google_Refexp_toolbox) | train&eval | images from COCO |
-| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train&eval | - |
-| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
-| **RefCOCO** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train&eval | images from COCO |
+| **Cops-Ref** | [Cops-Ref: A new Dataset and Task on Compositional Referring Expression Comprehension (CVPR 2020)](https://arxiv.org/abs/2003.00403) | Compositional REC | - | [Github](https://github.com/zfchenUnique/Cops-Ref) | eval only | A variant of REC |
+| **Visual Genome** | [Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations (IJCV 2017)](https://link.springer.com/article/10.1007/s11263-016-0981-7) | OD&Phrase Grounding | [Link](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) | [Github](https://github.com/ranjaykrishna/visual_genome_python_driver) | multiple multi-modal tasks (including REC) |
+| **RefCOCOg** | [Generation and Comprehension of Unambiguous Object Descriptions (CVPR 2016)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf) | REC |  - | [Github](https://github.com/mjhucla/Google_Refexp_toolbox) | train & eval | images from COCO |
+| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | - |
+| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | images from COCO |
+| **RefCOCO** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | images from COCO |
 
 
 # Related Surveys and Resources
