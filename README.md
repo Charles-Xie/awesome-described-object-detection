@@ -30,6 +30,8 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
 
+- Griffon: Spelling out All Object Locations at Any Granularity with Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.14552) [[code]](https://github.com/jefferyZhan/Griffon)![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)
+
 - Ferret: Refer and Ground Anything Anywhere at Any Granularity [[paper]](https://arxiv.org/abs/2310.07704) [[code]](https://github.com/apple/ml-ferret)![Star](https://img.shields.io/github/stars/apple/ml-ferret.svg?style=social&label=Star)
 
 - Contextual Object Detection with Multimodal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.18279) [[demo]](https://huggingface.co/spaces/yuhangzang/ContextDet-Demo) [[code]](https://github.com/yuhangzang/ContextDET)![Star](https://img.shields.io/github/stars/yuhangzang/ContextDET.svg?style=social&label=Star)
@@ -52,7 +54,13 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Open-Vocabulary Object Detection
 
+- Language-conditioned Detection Transformer (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17902) [[code]](https://github.com/janghyuncho/DECOLA)
+
+- The devil is in the fine-grained details: Evaluating open-vocabulary object detectors for fine-grained understanding (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17518) [[code]](https://github.com/lorebianchi98/FG-OVD)
+
 - LP-OVOD: Open-Vocabulary Object Detection by Linear Probing (WACV 2024) [[paper]](https://arxiv.org/abs/2310.17109) [[code (soon)]](https://github.com/VinAIResearch/LP-OVOD)
+
+- Meta-Adapter: An Online Few-shot Learner for Vision-Language Model (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2311.03774)
 
 - CoDet: Co-Occurrence Guided Region-Word Alignment for Open-Vocabulary Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2310.16667) [[code]](https://github.com/CVMI-Lab/CoDet)
 
@@ -122,7 +130,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Exploiting Unlabeled Data with Vision and Language Models for Object Detection (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690156.pdf) [[code]](https://github.com/xiaofeng94/VL-PLM)
 
-- PromptDet: Towards Open-vocabulary Detection using Uncurated Images (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690691.pdf) [[code]](https://github.com/fcjian/PromptDet)
+- PromptDet: Towards Open-vocabulary Detection using Uncurated Images (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690691.pdf) [[website]](https://fcjian.github.io/promptdet/) [[code]](https://github.com/fcjian/PromptDet)
 
 - Open-Vocabulary DETR with Conditional Matching (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136690107.pdf) [[code]](https://github.com/yuhangzang/OV-DETR)
 
@@ -143,6 +151,12 @@ These methods are either MLLM with capabilities related to detection/localizatio
 - Open-Vocabulary Object Detection Using Captions (CVPR 2021) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zareian_Open-Vocabulary_Object_Detection_Using_Captions_CVPR_2021_paper.pdf) [[code]](https://github.com/alirezazareian/ovr-cnn)
 
 ## Referring Expression Comprehension/Visual Grounding
+
+- Zero-shot Referring Expression Comprehension via Structural Similarity Between Images and Captions (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17048) 
+
+- Continual Referring Expression Comprehension via Dual Modular Memorization (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.14909) [[code]](https://github.com/zackschen/DMM)
+
+- ViLaM: A Vision-Language Model with Enhanced Visual Grounding and Generalization Capability (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.12327)
 
 - OV-VG: A Benchmark for Open-Vocabulary Visual Grounding (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.14374) [[code]](https://github.com/cv516Buaa/OV-VG)
 
