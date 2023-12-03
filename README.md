@@ -62,6 +62,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Meta-Adapter: An Online Few-shot Learner for Vision-Language Model (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2311.03774)
 
+- Open-Vocabulary Object Detection with Meta Prompt Representation and Instance Contrastive Optimization (BMVC 2023) [[paper]](https://papers.bmvc2023.org/0093.pdf)
+
 - CoDet: Co-Occurrence Guided Region-Word Alignment for Open-Vocabulary Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2310.16667) [[code]](https://github.com/CVMI-Lab/CoDet)
 
 - DST-Det: Simple Dynamic Self-Training for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.01393) [[code (soon)]](https://github.com/xushilin1/dst-det)
@@ -78,7 +80,11 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Unified Open-Vocabulary Dense Visual Prediction (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.08238)
 
-- Open-Vocabulary Object Detection via Scene Graph Discovery (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.03339)
+- TIB: Detecting Unknown Objects Via Two-Stream Information Bottleneck (TPAMI 2023) [[paper]](https://ieeexplore.ieee.org/abstract/document/10275124)
+
+- Fine-grained Visual-Text Prompt-Driven Self-Training for Open-Vocabulary Object Detection (TNNLS 2023) [[paper]](https://ieeexplore.ieee.org/abstract/document/10197240)
+
+- Open-Vocabulary Object Detection via Scene Graph Discovery (ACM MM 2023) [[paper]](https://arxiv.org/abs/2307.03339)
 
 - Three Ways to Improve Feature Alignment for Open Vocabulary Detection (arXiv 2023) [[paper]](https://arxiv.org/abs/2303.13518)
 
@@ -117,8 +123,6 @@ These methods are either MLLM with capabilities related to detection/localizatio
 - Learning Object-Language Alignments for Open-Vocabulary Object Detection (ICLR 2023) [[paper]](https://openreview.net/pdf?id=mjHlitXvReu) [[code]](https://github.com/clin1223/VLDet)
 
 - Simple Open-Vocabulary Object Detection with Vision Transformers (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700714.pdf) [[code (jax)]](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit) [[code (huggingface)]](https://huggingface.co/docs/transformers/model_doc/owlvit)
-
-- P<sup>3</sup>OVD: Fine-grained Visual-Text Prompt-Driven Self-Training for Open-Vocabulary Object Detection (arXiv 2022) [[paper]](https://arxiv.org/abs/2211.00849)
 
 - Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization (arXiv 2022) [[paper]](https://arxiv.org/abs/2206.11134) [[code]](https://github.com/PeixianChen/MEDet)
 
