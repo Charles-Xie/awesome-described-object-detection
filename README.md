@@ -54,6 +54,10 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Open-Vocabulary Object Detection
 
+- Aligning and Prompting Everything All at Once for Universal Visual Perception (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02153) [[code]](https://github.com/shenyunhang/APE)
+
+- Learning Pseudo-Labeler beyond Noun Concepts for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02103)
+
 - Language-conditioned Detection Transformer (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17902) [[code]](https://github.com/janghyuncho/DECOLA)
 
 - The devil is in the fine-grained details: Evaluating open-vocabulary object detectors for fine-grained understanding (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17518) [[code]](https://github.com/lorebianchi98/FG-OVD)
