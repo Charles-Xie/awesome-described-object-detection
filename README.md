@@ -24,6 +24,8 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 ## Described Object Detection
 
+- Aligning and Prompting Everything All at Once for Universal Visual Perception (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02153) [[code]](https://github.com/shenyunhang/APE)![Star](https://img.shields.io/github/stars/shenyunhang/APE.svg?style=social&label=Star)
+
 - Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)![Star](https://img.shields.io/github/stars/shikras/d-cube.svg?style=social&label=Star)
 
 ### Methods with Potential for DOD
@@ -54,7 +56,13 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Open-Vocabulary Object Detection
 
-- Aligning and Prompting Everything All at Once for Universal Visual Perception (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02153) [[code]](https://github.com/shenyunhang/APE)
+- Simple Image-level Classification Improves Open-vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.10439) [[code]](https://github.com/mala-lab/SIC-CADS)
+
+- ProxyDet: Synthesizing Proxy Novel Classes via Classwise Mixup for Open Vocabulary Object Detection (AAAI 2024) [[paper]](https://arxiv.org/abs/2312.07266)
+
+- OpenSD: Unified Open-Vocabulary Segmentation and Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.06703) [[code (soon)]](https://github.com/strongwolf/OpenSD)
+
+- Boosting Segment Anything Model Towards Open-Vocabulary Learning (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.03628)
 
 - Learning Pseudo-Labeler beyond Noun Concepts for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02103)
 
