@@ -7,6 +7,21 @@ A curated list of papers and resources related to [Described Object Detection](h
 
 If you find any work or resources missing, please send a [pull requests](https://github.com/Charles-Xie/awesome-described-object-detection/pulls). Thanks!
 
+---
+<br> **📑 If you find our projects helpful to your research, please consider citing:** <br>
+
+```bibtex
+@inproceedings{xie2023DOD,
+  title={Described Object Detection: Liberating Object Detection with Flexible Expressions},
+  author={Xie, Chi and Zhang, Zhao and Wu, Yixuan and Zhu, Feng and Zhao, Rui and Liang, Shuang},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS)},
+  year={2023}
+}
+```
+
+---
+
+
 ## Table of Contents
 
 - [Awesome Papers](#awesome-papers)
@@ -31,6 +46,8 @@ If you find any work or resources missing, please send a [pull requests](https:/
 ### Methods with Potential for DOD
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
+
+- Pink: Unveiling the Power of Referential Comprehension for Multi-modal LLMs (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00582) [[code (soon)]](https://github.com/SY-Xuan/Pink)![Star](https://img.shields.io/github/stars/SY-Xuan/Pink.svg?style=social&label=Star)
 
 - Griffon: Spelling out All Object Locations at Any Granularity with Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.14552) [[code]](https://github.com/jefferyZhan/Griffon)![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)
 
@@ -110,7 +127,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Open-Vocabulary Object Detection With an Open Corpus (ICCV 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_Open-Vocabulary_Object_Detection_With_an_Open_Corpus_ICCV_2023_paper.pdf)
 
-- Distilling DETR with Visual-Linguistic Knowledge for Open-Vocabulary Object Detection (ICCV 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Distilling_DETR_with_Visual-Linguistic_Knowledge_for_Open-Vocabulary_Object_Detection_ICCV_2023_paper.pdf) [[code (soon)]](https://github.com/hikvision-research/opera)
+- Distilling DETR with Visual-Linguistic Knowledge for Open-Vocabulary Object Detection (ICCV 2023) [[paper]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Distilling_DETR_with_Visual-Linguistic_Knowledge_for_Open-Vocabulary_Object_Detection_ICCV_2023_paper.pdf) [[code]](https://github.com/hikvision-research/opera/tree/main/configs/dk-detr)
 
 - A Simple Framework for Open-Vocabulary Segmentation and Detection (ICCV 2023) [[paper]](https://arxiv.org/abs/2303.08131) [[code]](https://github.com/IDEA-Research/OpenSeeD)
 
@@ -170,7 +187,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Referring Expression Comprehension/Visual Grounding
 
-- GroundVLP: Harnessing Zero-shot Visual Grounding from Vision-Language Pre-training and Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.15043) [[code (soon)]](https://github.com/om-ai-lab/GroundVLP)
+- GroundVLP: Harnessing Zero-shot Visual Grounding from Vision-Language Pre-training and Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.15043) [[code]](https://github.com/om-ai-lab/GroundVLP)
 
 - Context Disentangling and Prototype Inheriting for Robust Visual Grounding (TPAMI 2023) [[paper]](https://arxiv.org/abs/2312.11967) [[code]](https://github.com/WayneTomas/TransCP)
 
@@ -310,12 +327,12 @@ This part is still in progress.
 | **Ferret-Bench** | [Ferret: Refer and Ground Anything Anywhere at Any Granularity (arxiv 2023)](https://arxiv.org/abs/2310.07704) | ground-and-refer | - | [Github](https://github.com/apple/ml-ferret) | eval only | - |
 | **GRIT (Grounded Image-Text)** | [Kosmos-2: Grounding Multimodal Large Language Models to the World (arxiv 2023)](https://arxiv.org/abs/2306.14824) | visual grounding (REC & Phrase Grounding) | - | [Github](https://github.com/microsoft/unilm/tree/master/kosmos-2#grit-large-scale-training-corpus-of-grounded-image-text-pairs) [Huggingface](https://huggingface.co/datasets/zzliang/GRIT) | train only | created based on image-text pairs from a subset of COYO-700M and LAION-2B; 20.5M |
 | **SK-VG** | [Advancing Visual Grounding With Scene Knowledge: Benchmark and Method (CVPR 2023)](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_Advancing_Visual_Grounding_With_Scene_Knowledge_Benchmark_and_Method_CVPR_2023_paper.pdf) | REC | - | [Github](https://github.com/zhjohnchan/SK-VG) | train & eval | scene knowledge in natural language is required |
-| **GRiT** | [GRIT: General Robust Image Task Benchmark (arxiv 2022)](https://arxiv.org/abs/2204.13653) | REC | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
+| **GRiT (General Robust Image Task)** | [GRIT: General Robust Image Task Benchmark (arxiv 2022)](https://arxiv.org/abs/2204.13653) | REC | [Link](https://allenai.org/project/grit/home) | [Github](https://github.com/allenai/grit_official) | eval only | - |
 | **Cops-Ref** | [Cops-Ref: A new Dataset and Task on Compositional Referring Expression Comprehension (CVPR 2020)](https://arxiv.org/abs/2003.00403) | Compositional REC | - | [Github](https://github.com/zfchenUnique/Cops-Ref) | eval only | A variant of REC |
 | **Visual Genome** | [Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations (IJCV 2017)](https://link.springer.com/article/10.1007/s11263-016-0981-7) | OD & Phrase Grounding | [Link](https://homes.cs.washington.edu/~ranjay/visualgenome/index.html) | [Github](https://github.com/ranjaykrishna/visual_genome_python_driver) | multiple multi-modal tasks (including REC) |
 | **RefCOCOg** | [Generation and Comprehension of Unambiguous Object Descriptions (CVPR 2016)](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Mao_Generation_and_Comprehension_CVPR_2016_paper.pdf) | REC |  - | [Github](https://github.com/mjhucla/Google_Refexp_toolbox) | train & eval | images from COCO |
 | **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | - |
-| **RefClef** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | images from COCO |
+| **RefCOCO+** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | images from COCO |
 | **RefCOCO** | [ReferItGame: Referring to Objects in Photographs of Natural Scenes (EMNLP 2014)](https://arxiv.org/abs/2204.13653) | REC | - | [Github](https://github.com/lichengunc/refer) | train & eval | images from COCO |
 
 
@@ -336,19 +353,6 @@ Some similar github repos like awesome lists:
 - [witnessai/Awesome-Open-Vocabulary-Object-Detection](https://github.com/witnessai/Awesome-Open-Vocabulary-Object-Detection/blob/main/README.md?plain=1): A list of Open-Vocabulary Object Detection papers.
 
 
----
-<br> **📑 If you find our projects helpful to your research, please consider citing:** <br>
-
-```bibtex
-@inproceedings{xie2023DOD,
-  title={Described Object Detection: Liberating Object Detection with Flexible Expressions},
-  author={Xie, Chi and Zhang, Zhao and Wu, Yixuan and Zhu, Feng and Zhao, Rui and Liang, Shuang},
-  booktitle={Thirty-seventh Conference on Neural Information Processing Systems (NeurIPS)},
-  year={2023}
-}
-```
-
----
 
 # Acknowledgement
 
