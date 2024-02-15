@@ -39,13 +39,24 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 ## Described Object Detection
 
+A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
+
+- An Open and Comprehensive Pipeline for Unified Object Grounding and Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.02361) [[code]](https://github.com/open-mmlab/mmdetection/tree/main/configs/mm_grounding_dino)![Star](https://img.shields.io/github/stars/open-mmlab/mmdetection.svg?style=social&label=Star)
+
+- Generating Enhanced Negatives for Training Language-Based Object Detectors (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.00094)
+
 - Aligning and Prompting Everything All at Once for Universal Visual Perception (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02153) [[code]](https://github.com/shenyunhang/APE)![Star](https://img.shields.io/github/stars/shenyunhang/APE.svg?style=social&label=Star)
 
 - Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)![Star](https://img.shields.io/github/stars/shikras/d-cube.svg?style=social&label=Star)
 
+
 ### Methods with Potential for DOD
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
+
+- LLMs Meet VLMs: Boost Open Vocabulary Object Detection with Fine-grained Descriptors (ICLR 2024) [[paper]](https://arxiv.org/abs/2402.04630)
+
+- SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.07575) [[code]](https://github.com/Alpha-VLLM/LLaMA2-Accessory)![Star](https://img.shields.io/github/stars/Alpha-VLLM/LLaMA2-Accessory.svg?style=social&label=Star)
 
 - Pink: Unveiling the Power of Referential Comprehension for Multi-modal LLMs (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00582) [[code (soon)]](https://github.com/SY-Xuan/Pink)![Star](https://img.shields.io/github/stars/SY-Xuan/Pink.svg?style=social&label=Star)
 
@@ -55,7 +66,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Contextual Object Detection with Multimodal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2305.18279) [[demo]](https://huggingface.co/spaces/yuhangzang/ContextDet-Demo) [[code]](https://github.com/yuhangzang/ContextDET)![Star](https://img.shields.io/github/stars/yuhangzang/ContextDET.svg?style=social&label=Star)
 
-- Kosmos-2: Grounding Multimodal Large Language Models to the World (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.14824) [[demo]](https://huggingface.co/spaces/ydshieh/Kosmos-2) [[code]](https://github.com/microsoft/unilm/tree/master/kosmos-2)![Star](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social&label=Star)
+- Kosmos-2: Grounding Multimodal Large Language Models to the World (ICLR 2024) [[paper]](https://arxiv.org/abs/2306.14824) [[demo]](https://huggingface.co/spaces/ydshieh/Kosmos-2) [[code]](https://github.com/microsoft/unilm/tree/master/kosmos-2)![Star](https://img.shields.io/github/stars/microsoft/unilm.svg?style=social&label=Star)
 
 - Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.12966) [[demo]](https://modelscope.cn/studios/qwen/Qwen-VL-Chat-Demo/summary) [[code]](https://github.com/QwenLM/Qwen-VL)![Star](https://img.shields.io/github/stars/QwenLM/Qwen-VL.svg?style=social&label=Star)
 
@@ -72,6 +83,10 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 
 ## Open-Vocabulary Object Detection
+
+- InstaGen: Enhancing Object Detection by Training on Synthetic Dataset (arxiv 2024) [[paper]](https://arxiv.org/abs/2402.05937)
+
+- YOLO-World: Real-Time Open-Vocabulary Object Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.17270) [[code]](https://github.com/AILab-CVC/YOLO-World)
 
 - CLIM: Contrastive Language-Image Mosaic for Region Representation (AAAI 2024) [[paper]](https://arxiv.org/abs/2312.11376) [[code]](https://github.com/wusize/CLIM)
  
@@ -184,6 +199,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 - Open-vocabulary Object Detection via Vision and Language Knowledge Distillation (ICLR 2022) [[paper]](https://openreview.net/forum?id=lL3lnMbR4WU) [[code]](https://github.com/tensorflow/tpu/tree/master/models/official/detection/projects/vild)
 
 - Open-Vocabulary Object Detection Using Captions (CVPR 2021) [[paper]](https://openaccess.thecvf.com/content/CVPR2021/papers/Zareian_Open-Vocabulary_Object_Detection_Using_Captions_CVPR_2021_paper.pdf) [[code]](https://github.com/alirezazareian/ovr-cnn)
+
 
 ## Referring Expression Comprehension/Visual Grounding
 
