@@ -49,16 +49,27 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 
 - Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)![Star](https://img.shields.io/github/stars/shikras/d-cube.svg?style=social&label=Star)
 
+- Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone (NeurIPS 2022) [[paper]](https://arxiv.org/abs/2206.07643) [[code]](https://github.com/microsoft/FIBER)![Star](https://img.shields.io/github/stars/microsoft/FIBER.svg?style=social&label=Star)
+
+- GLIPv2: Unifying Localization and Vision-Language Understanding (NeurIPS 2022) [[paper]](https://arxiv.org/abs/2206.05836) [[code]](https://github.com/microsoft/GLIP)![Star](https://img.shields.io/github/stars/microsoft/GLIP.svg?style=social&label=Star)
+
+- Grounded Language-Image Pre-training (CVPR 2022) [[paper]](https://arxiv.org/abs/2112.03857) [[code]](https://github.com/microsoft/GLIP)![Star](https://img.shields.io/github/stars/microsoft/GLIP.svg?style=social&label=Star)
+
+
 
 ### Methods with Potential for DOD
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
 
+- Generative Region-Language Pretraining for Open-Ended Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2403.10191) [[code]](https://github.com/FoundationVision/GenerateU)![Star](https://img.shields.io/github/stars/FoundationVision/GenerateU.svg?style=social&label=Star)
+
+- GROUNDHOG: Grounding Large Language Models to Holistic Segmentation (CVPR 2024) [[paper]](https://arxiv.org/abs/2402.16846)
+
 - LLMs Meet VLMs: Boost Open Vocabulary Object Detection with Fine-grained Descriptors (ICLR 2024) [[paper]](https://arxiv.org/abs/2402.04630)
 
 - SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.07575) [[code]](https://github.com/Alpha-VLLM/LLaMA2-Accessory)![Star](https://img.shields.io/github/stars/Alpha-VLLM/LLaMA2-Accessory.svg?style=social&label=Star)
 
-- Pink: Unveiling the Power of Referential Comprehension for Multi-modal LLMs (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00582) [[code (soon)]](https://github.com/SY-Xuan/Pink)![Star](https://img.shields.io/github/stars/SY-Xuan/Pink.svg?style=social&label=Star)
+- Pink: Unveiling the Power of Referential Comprehension for Multi-modal LLMs (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00582) [[code (TBD)]](https://github.com/SY-Xuan/Pink)![Star](https://img.shields.io/github/stars/SY-Xuan/Pink.svg?style=social&label=Star)
 
 - Griffon: Spelling out All Object Locations at Any Granularity with Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.14552) [[code]](https://github.com/jefferyZhan/Griffon)![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)
 
@@ -76,13 +87,14 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - Universal Instance Perception as Object Discovery and Retrieval (CVPR 2023) [[paper]](https://arxiv.org/abs/2303.06674v2) [[code]](https://github.com/MasterBin-IIAU/UNINEXT)![Star](https://img.shields.io/github/stars/MasterBin-IIAU/UNINEXT.svg?style=social&label=Star) (REC, OVD, etc.)
 
-- Coarse-to-Fine Vision-Language Pre-training with Fusion in the Backbone (NeurIPS 2022) [[paper]](https://arxiv.org/abs/2206.07643) [[code]](https://github.com/microsoft/FIBER)![Star](https://img.shields.io/github/stars/microsoft/FIBER.svg?style=social&label=Star)
 - FindIt: Generalized Localization with Natural Language Queries (ECCV 2022) [[paper]](https://arxiv.org/abs/2203.17273) [[code]](https://github.com/google-research/google-research/tree/master/findit)![Star](https://img.shields.io/github/stars/google-research/google-research.svg?style=social&label=Star) (REC, OD, etc.)
 
 - GRiT: A Generative Region-to-text Transformer for Object Understanding (arxiv 2022) [[paper]](https://arxiv.org/abs/2212.00280) [[demo (colab)]](https://colab.research.google.com/github/taskswithcode/GriT/blob/master/TWCGRiT.ipynb) [[code]](https://github.com/JialianW/GRiT)![Star](https://img.shields.io/github/stars/JialianW/GRiT.svg?style=social&label=Star)
 
 
 ## Open-Vocabulary Object Detection
+
+- Real-time Transformer-based Open-Vocabulary Detection with Efficient Fusion Head (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.06892) [[code (TBD)]](https://github.com/om-ai-lab/OmDet)
 
 - InstaGen: Enhancing Object Detection by Training on Synthetic Dataset (arxiv 2024) [[paper]](https://arxiv.org/abs/2402.05937)
 
@@ -94,7 +106,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - ProxyDet: Synthesizing Proxy Novel Classes via Classwise Mixup for Open Vocabulary Object Detection (AAAI 2024) [[paper]](https://arxiv.org/abs/2312.07266)
 
-- OpenSD: Unified Open-Vocabulary Segmentation and Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.06703) [[code (soon)]](https://github.com/strongwolf/OpenSD)
+- OpenSD: Unified Open-Vocabulary Segmentation and Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.06703) [[code (TBD)]](https://github.com/strongwolf/OpenSD)
 
 - Boosting Segment Anything Model Towards Open-Vocabulary Learning (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.03628)
 
@@ -104,7 +116,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - The devil is in the fine-grained details: Evaluating open-vocabulary object detectors for fine-grained understanding (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17518) [[code]](https://github.com/lorebianchi98/FG-OVD)
 
-- LP-OVOD: Open-Vocabulary Object Detection by Linear Probing (WACV 2024) [[paper]](https://arxiv.org/abs/2310.17109) [[code (soon)]](https://github.com/VinAIResearch/LP-OVOD)
+- LP-OVOD: Open-Vocabulary Object Detection by Linear Probing (WACV 2024) [[paper]](https://arxiv.org/abs/2310.17109) [[code]](https://github.com/VinAIResearch/LP-OVOD)
 
 - Meta-Adapter: An Online Few-shot Learner for Vision-Language Model (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2311.03774)
 
@@ -112,7 +124,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - CoDet: Co-Occurrence Guided Region-Word Alignment for Open-Vocabulary Object Detection (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2310.16667) [[code]](https://github.com/CVMI-Lab/CoDet)
 
-- DST-Det: Simple Dynamic Self-Training for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.01393) [[code (soon)]](https://github.com/xushilin1/dst-det)
+- DST-Det: Simple Dynamic Self-Training for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.01393) [[code]](https://github.com/xushilin1/dst-det)
 
 - Detection-Oriented Image-Text Pretraining for Open-Vocabulary Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00161)
 
@@ -219,7 +231,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - VGDiffZero: Text-to-image Diffusion Models Can Be Zero-shot Visual Grounders (arxiv 2023) [[paper]](https://arxiv.org/abs/2309.01141)
 
-- Language-Guided Diffusion Model for Visual Grounding (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.09599) [[code (soon)]](https://github.com/iQua/vgbase/tree/DiffusionVG)
+- Language-Guided Diffusion Model for Visual Grounding (arxiv 2023) [[paper]](https://arxiv.org/abs/2308.09599) [[code (TBD)]](https://github.com/iQua/vgbase/tree/DiffusionVG)
 
 - Fine-Grained Visual Prompting (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.04356)
 
