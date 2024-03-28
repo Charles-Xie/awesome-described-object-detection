@@ -43,7 +43,7 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 
 - An Open and Comprehensive Pipeline for Unified Object Grounding and Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.02361) [[code]](https://github.com/open-mmlab/mmdetection/tree/main/configs/mm_grounding_dino)![Star](https://img.shields.io/github/stars/open-mmlab/mmdetection.svg?style=social&label=Star)
 
-- Generating Enhanced Negatives for Training Language-Based Object Detectors (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.00094)
+- Generating Enhanced Negatives for Training Language-Based Object Detectors (CVPR 2024) [[paper]](https://arxiv.org/abs/2401.00094)
 
 - Aligning and Prompting Everything All at Once for Universal Visual Perception (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02153) [[code]](https://github.com/shenyunhang/APE)![Star](https://img.shields.io/github/stars/shenyunhang/APE.svg?style=social&label=Star)
 
@@ -332,6 +332,7 @@ This part is still in progress.
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
 | $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval only | - |
+| OmniLabel | [OmniLabel: A Challenging Benchmark for Language-Based Object Detection (ICCV 2023)](https://arxiv.org/abs/2304.11463) | [Project](https://www.omnilabel.org) | [Github](https://github.com/samschulter/omnilabeltools) | eval only | - |
 
 
 ## Detection Datasets
