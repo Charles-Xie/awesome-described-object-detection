@@ -332,6 +332,7 @@ This part is still in progress.
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
 | $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval only | - |
+| OmniLabel | [OmniLabel: A Challenging Benchmark for Language-Based Object Detection (ICCV 2023)](https://arxiv.org/abs/2304.11463) | [Project](https://www.omnilabel.org) | [Github](https://github.com/samschulter/omnilabeltools) | eval only | - |
 
 
 ## Detection Datasets
