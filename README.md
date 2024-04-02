@@ -41,6 +41,8 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
+- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM [[paper]](https://arxiv.org/abs/2403.12488)
+
 - An Open and Comprehensive Pipeline for Unified Object Grounding and Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.02361) [[code]](https://github.com/open-mmlab/mmdetection/tree/main/configs/mm_grounding_dino)![Star](https://img.shields.io/github/stars/open-mmlab/mmdetection.svg?style=social&label=Star)
 
 - Generating Enhanced Negatives for Training Language-Based Object Detectors (CVPR 2024) [[paper]](https://arxiv.org/abs/2401.00094)
@@ -94,7 +96,11 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 ## Open-Vocabulary Object Detection
 
-- Real-time Transformer-based Open-Vocabulary Detection with Efficient Fusion Head (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.06892) [[code (TBD)]](https://github.com/om-ai-lab/OmDet)
+Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+
+- T-Rex2: Towards Generic Object Detection via Text-Visual Prompt Synergy (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.14610) [[code]](https://github.com/IDEA-Research/T-Rex)
+
+- Real-time Transformer-based Open-Vocabulary Detection with Efficient Fusion Head (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.06892) [[code]](https://github.com/om-ai-lab/OmDet)
 
 - InstaGen: Enhancing Object Detection by Training on Synthetic Dataset (arxiv 2024) [[paper]](https://arxiv.org/abs/2402.05937)
 
@@ -214,6 +220,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 
 ## Referring Expression Comprehension/Visual Grounding
+
+- Learning from Models and Data for Visual Grounding (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.13804)
 
 - GroundVLP: Harnessing Zero-shot Visual Grounding from Vision-Language Pre-training and Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.15043) [[code]](https://github.com/om-ai-lab/GroundVLP)
 
