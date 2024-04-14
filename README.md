@@ -98,7 +98,13 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
 
+- Hyperbolic Learning with Synthetic Captions for Open-World Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2404.05016)
+
+- Retrieval-Augmented Open-Vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2404.05687) [[code (TBD)]](https://github.com/mlvlab/RALF)
+
 - T-Rex2: Towards Generic Object Detection via Text-Visual Prompt Synergy (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.14610) [[code]](https://github.com/IDEA-Research/T-Rex)
+
+- The devil is in the fine-grained details: Evaluating open-vocabulary object detectors for fine-grained understanding (CVPR 2024) [[paper]](https://arxiv.org/abs/2311.17518) [[code]](https://github.com/lorebianchi98/FG-OVD)
 
 - Real-time Transformer-based Open-Vocabulary Detection with Efficient Fusion Head (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.06892) [[code]](https://github.com/om-ai-lab/OmDet)
 
@@ -119,8 +125,6 @@ Note that some generic object detection methods accepting language prompts are a
 - Learning Pseudo-Labeler beyond Noun Concepts for Open-Vocabulary Object Detection (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02103)
 
 - Language-conditioned Detection Transformer (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17902) [[code]](https://github.com/janghyuncho/DECOLA)
-
-- The devil is in the fine-grained details: Evaluating open-vocabulary object detectors for fine-grained understanding (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.17518) [[code]](https://github.com/lorebianchi98/FG-OVD)
 
 - LP-OVOD: Open-Vocabulary Object Detection by Linear Probing (WACV 2024) [[paper]](https://arxiv.org/abs/2310.17109) [[code]](https://github.com/VinAIResearch/LP-OVOD)
 
