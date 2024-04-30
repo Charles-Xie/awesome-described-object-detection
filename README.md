@@ -41,7 +41,7 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
-- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM [[paper]](https://arxiv.org/abs/2403.12488)
+- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.12488)
 
 - An Open and Comprehensive Pipeline for Unified Object Grounding and Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.02361) [[code]](https://github.com/open-mmlab/mmdetection/tree/main/configs/mm_grounding_dino)![Star](https://img.shields.io/github/stars/open-mmlab/mmdetection.svg?style=social&label=Star)
 
@@ -97,6 +97,10 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+
+- Training-free Boost for Open-Vocabulary Object Detection with Confidence Aggregation (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.08603) [[code]](https://github.com/WarlockWendell/AggDet)
+
+- DetCLIPv3: Towards Versatile Generative Open-vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2404.09216)
 
 - Hyperbolic Learning with Synthetic Captions for Open-World Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2404.05016)
 
@@ -224,6 +228,10 @@ Note that some generic object detection methods accepting language prompts are a
 
 
 ## Referring Expression Comprehension/Visual Grounding
+
+- Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.13013) [[code]](https://github.com/FoundationVision/Groma)
+
+- HiVG: Hierarchical Multimodal Fine-grained Modulation for Visual Grounding (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.13400) [[code]](https://github.com/linhuixiao/HiVG)
 
 - Learning from Models and Data for Visual Grounding (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.13804)
 
