@@ -63,6 +63,10 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
 
+- SHiNe: Semantic Hierarchy Nexus for Open-vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2405.10053) [[code]](https://github.com/naver/shine)
+
+- Open-Vocabulary Object Detection via Neighboring Region Attention Alignment (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.08593)
+
 - Generative Region-Language Pretraining for Open-Ended Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2403.10191) [[code]](https://github.com/FoundationVision/GenerateU)![Star](https://img.shields.io/github/stars/FoundationVision/GenerateU.svg?style=social&label=Star)
 
 - GROUNDHOG: Grounding Large Language Models to Holistic Segmentation (CVPR 2024) [[paper]](https://arxiv.org/abs/2402.16846)
