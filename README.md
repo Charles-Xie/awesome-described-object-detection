@@ -41,6 +41,8 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
+- LLM-Optic: Unveiling the Capabilities of Large Language Models for Universal Visual Grounding (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.17104)
+
 - DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.12488)
 
 - An Open and Comprehensive Pipeline for Unified Object Grounding and Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.02361) [[code]](https://github.com/open-mmlab/mmdetection/tree/main/configs/mm_grounding_dino)![Star](https://img.shields.io/github/stars/open-mmlab/mmdetection.svg?style=social&label=Star)
@@ -62,10 +64,6 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 ### Methods with Potential for DOD
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
-
-- SHiNe: Semantic Hierarchy Nexus for Open-vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2405.10053) [[code]](https://github.com/naver/shine)
-
-- Open-Vocabulary Object Detection via Neighboring Region Attention Alignment (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.08593)
 
 - Generative Region-Language Pretraining for Open-Ended Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2403.10191) [[code]](https://github.com/FoundationVision/GenerateU)![Star](https://img.shields.io/github/stars/FoundationVision/GenerateU.svg?style=social&label=Star)
 
@@ -101,6 +99,14 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+
+- Learning Background Prompts to Discover Implicit Knowledge for Open Vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2406.00510)
+
+- OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.17913) [[code]](https://github.com/xiaomoguhz/OV-DQUO)
+
+- SHiNe: Semantic Hierarchy Nexus for Open-vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2405.10053) [[code]](https://github.com/naver/shine)
+
+- Open-Vocabulary Object Detection via Neighboring Region Attention Alignment (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.08593)
 
 - Training-free Boost for Open-Vocabulary Object Detection with Confidence Aggregation (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.08603) [[code]](https://github.com/WarlockWendell/AggDet)
 
@@ -232,6 +238,8 @@ Note that some generic object detection methods accepting language prompts are a
 
 
 ## Referring Expression Comprehension/Visual Grounding
+
+- Visual Grounding with Dual Knowledge Distillation (TCSVT 2024) [[paper]](https://ieeexplore.ieee.org/abstract/document/10543065)
 
 - Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.13013) [[code]](https://github.com/FoundationVision/Groma)
 
