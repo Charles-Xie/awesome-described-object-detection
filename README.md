@@ -102,6 +102,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
 
+- OV-DINO: Unified Open-Vocabulary Detection with Language-Aware Selective Fusion (arxiv 2024) [[paper]](https://arxiv.org/abs/2407.07844) [[code]](https://github.com/wanghao9610/OV-DINO)
+
 - Learning Background Prompts to Discover Implicit Knowledge for Open Vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2406.00510)
 
 - OV-DQUO: Open-Vocabulary DETR with Denoising Text Query Training and Open-World Unknown Objects Supervision (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.17913) [[code]](https://github.com/xiaomoguhz/OV-DQUO)
