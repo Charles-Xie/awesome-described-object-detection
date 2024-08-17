@@ -41,11 +41,11 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
+- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (ECCV 2024) [[paper]](https://arxiv.org/abs/2403.12488)
+
 - Learning Compositional Language-based Object Detection with Diffusion-based Synthetic Data (CVPR 2024 Workshop) [[paper]](https://generative-vision.github.io/workshop-CVPR-24/papers/28.pdf)
 
 - LLM-Optic: Unveiling the Capabilities of Large Language Models for Universal Visual Grounding (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.17104)
-
-- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (arxiv 2024) [[paper]](https://arxiv.org/abs/2403.12488)
 
 - An Open and Comprehensive Pipeline for Unified Object Grounding and Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.02361) [[code]](https://github.com/open-mmlab/mmdetection/tree/main/configs/mm_grounding_dino)![Star](https://img.shields.io/github/stars/open-mmlab/mmdetection.svg?style=social&label=Star)
 
@@ -101,6 +101,12 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+
+- MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection (ECCV 2024) [[paper]](https://arxiv.org/abs/2407.21465) [[code]](https://github.com/wkfdb/MarvelOVD)
+
+- LaMI-DETR: Open-Vocabulary Detection with Language Model Instruction (ECCV 2024) [[paper]](https://arxiv.org/abs/2407.11335)
+
+- OVLW-DETR: Open-Vocabulary Light-Weighted Detection Transformer (arxiv 2024) [[paper]](https://arxiv.org/abs/2407.10655) [[code (TBD)]](https://github.com/Atten4Vis/LW-DETR)
 
 - OV-DINO: Unified Open-Vocabulary Detection with Language-Aware Selective Fusion (arxiv 2024) [[paper]](https://arxiv.org/abs/2407.07844) [[code]](https://github.com/wanghao9610/OV-DINO)
 
