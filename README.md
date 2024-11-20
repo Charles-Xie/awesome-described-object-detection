@@ -214,6 +214,8 @@ Note that some generic object detection methods accepting language prompts are a
 
 - Learning Object-Language Alignments for Open-Vocabulary Object Detection (ICLR 2023) [[paper]](https://openreview.net/pdf?id=mjHlitXvReu) [[code]](https://github.com/clin1223/VLDet)
 
+- OmDet: Large‐scale vision‐language multi‐dataset pre‐trainingwith multimodal detection network (IET Computer Vision 2023) [[paper]](https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/cvi2.12268)
+
 - Simple Open-Vocabulary Object Detection with Vision Transformers (ECCV 2022) [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136700714.pdf) [[code (jax)]](https://github.com/google-research/scenic/tree/main/scenic/projects/owl_vit) [[code (huggingface)]](https://huggingface.co/docs/transformers/model_doc/owlvit)
 
 - Open Vocabulary Object Detection with Proposal Mining and Prediction Equalization (arXiv 2022) [[paper]](https://arxiv.org/abs/2206.11134) [[code]](https://github.com/PeixianChen/MEDet)
@@ -375,6 +377,7 @@ This part is still in progress.
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
 | $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval only | - |
 | OmniLabel | [OmniLabel: A Challenging Benchmark for Language-Based Object Detection (ICCV 2023)](https://arxiv.org/abs/2304.11463) | [Project](https://www.omnilabel.org) | [Github](https://github.com/samschulter/omnilabeltools) | eval only | - |
+| OVDEval | [How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection(AAAI 2024)](https://arxiv.org/pdf/2308.13177) | - | [Github](https://github.com/om-ai-lab/OVDEval) | eval only | - |
 
 
 ## Detection Datasets
