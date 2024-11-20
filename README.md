@@ -102,13 +102,23 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
 
+- Multimodal Inplace Prompt Tuning for Open-set Object Detection (ACM MM 2024) [[paper]](https://openreview.net/pdf?id=J6c0sRkWop)
+
+- OpenSight: A Simple Open-Vocabulary Framework for LiDAR-Based Object Detection (ECCV 2024) [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-72907-2_1)
+
+- Toward Open Vocabulary Aerial Object Detection with CLIP-Activated Student-Teacher Learning (ECCV 2024) [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-73016-0_25) [[code]](https://github.com/lizzy8587/CastDet)
+
 - MarvelOVD: Marrying Object Recognition and Vision-Language Models for Robust Open-Vocabulary Object Detection (ECCV 2024) [[paper]](https://arxiv.org/abs/2407.21465) [[code]](https://github.com/wkfdb/MarvelOVD)
 
 - LaMI-DETR: Open-Vocabulary Detection with Language Model Instruction (ECCV 2024) [[paper]](https://arxiv.org/abs/2407.11335)
 
+- Multi-modal Prompts with Feature Decoupling for Open-Vocabulary Object Detection (IJCAI 2024 Workshop) [[paper]](https://link.springer.com/chapter/10.1007/978-981-97-6125-8_14)
+
 - OVLW-DETR: Open-Vocabulary Light-Weighted Detection Transformer (arxiv 2024) [[paper]](https://arxiv.org/abs/2407.10655) [[code (TBD)]](https://github.com/Atten4Vis/LW-DETR)
 
 - OV-DINO: Unified Open-Vocabulary Detection with Language-Aware Selective Fusion (arxiv 2024) [[paper]](https://arxiv.org/abs/2407.07844) [[code]](https://github.com/wanghao9610/OV-DINO)
+
+- Taming Self-Training for Open-Vocabulary Object Detection (CVPR 2024) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Zhao_Taming_Self-Training_for_Open-Vocabulary_Object_Detection_CVPR_2024_paper.pdf) [[code]](https://github.com/xiaofeng94/SAS-Det)
 
 - Learning Background Prompts to Discover Implicit Knowledge for Open Vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2406.00510)
 
@@ -119,6 +129,8 @@ Note that some generic object detection methods accepting language prompts are a
 - Open-Vocabulary Object Detection via Neighboring Region Attention Alignment (arxiv 2024) [[paper]](https://arxiv.org/abs/2405.08593)
 
 - Training-free Boost for Open-Vocabulary Object Detection with Confidence Aggregation (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.08603) [[code]](https://github.com/WarlockWendell/AggDet)
+
+- Exploring Region-Word Alignment in Built-in Detector for Open-Vocabulary Object Detection (CVPR 2024) [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_Exploring_Region-Word_Alignment_in_Built-in_Detector_for_Open-Vocabulary_Object_Detection_CVPR_2024_paper.html)
 
 - DetCLIPv3: Towards Versatile Generative Open-vocabulary Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2404.09216)
 
@@ -135,6 +147,8 @@ Note that some generic object detection methods accepting language prompts are a
 - InstaGen: Enhancing Object Detection by Training on Synthetic Dataset (arxiv 2024) [[paper]](https://arxiv.org/abs/2402.05937)
 
 - YOLO-World: Real-Time Open-Vocabulary Object Detection (arxiv 2024) [[paper]](https://arxiv.org/abs/2401.17270) [[code]](https://github.com/AILab-CVC/YOLO-World)
+
+- Weakly Supervised Open-Vocabulary Object Detection (AAAI 2024) [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/28127)
 
 - CLIM: Contrastive Language-Image Mosaic for Region Representation (AAAI 2024) [[paper]](https://arxiv.org/abs/2312.11376) [[code]](https://github.com/wusize/CLIM)
  
@@ -375,9 +389,9 @@ This part is still in progress.
 
 | Name | Paper | Website | Code | Train/Eval | Notes |
 |:-----|:-----:|:----:|:-----:|:-----:|:-----:|
-| $D^3$ | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval only | - |
-| OmniLabel | [OmniLabel: A Challenging Benchmark for Language-Based Object Detection (ICCV 2023)](https://arxiv.org/abs/2304.11463) | [Project](https://www.omnilabel.org) | [Github](https://github.com/samschulter/omnilabeltools) | eval only | - |
-| OVDEval | [How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection(AAAI 2024)](https://arxiv.org/pdf/2308.13177) | - | [Github](https://github.com/om-ai-lab/OVDEval) | eval only | - |
+| **$D^3$** | [Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023)](https://arxiv.org/abs/2307.12813) | - | [Github](https://github.com/shikras/d-cube) | eval only | - |
+| **OmniLabel** | [OmniLabel: A Challenging Benchmark for Language-Based Object Detection (ICCV 2023)](https://arxiv.org/abs/2304.11463) | [Project](https://www.omnilabel.org) | [Github](https://github.com/samschulter/omnilabeltools) | eval only | - |
+| **OVDEval** | [How to Evaluate the Generalization of Detection? A Benchmark for Comprehensive Open-Vocabulary Detection (AAAI 2024)](https://arxiv.org/pdf/2308.13177) | - | [Github](https://github.com/om-ai-lab/OVDEval) | eval only | - |
 
 
 ## Detection Datasets
@@ -414,7 +428,7 @@ This part is still in progress.
 
 Some survey papers regarding relevant tasks (open-vocabulary learning, etc.)
 
-- Towards Open Vocabulary Learning: A Survey (arxiv 2023) [[paper]](https://arxiv.org/abs/2306.15880) [[repo]](https://github.com/jianzongwu/Awesome-Open-Vocabulary)
+- Towards Open Vocabulary Learning: A Survey (TPAMI 2024) [[paper]](https://arxiv.org/abs/2306.15880) [[repo]](https://github.com/jianzongwu/Awesome-Open-Vocabulary)
 - A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.09220)
 - Referring Expression Comprehension: A Survey of Methods and Datasets (TMM 2020) [[paper]](https://arxiv.org/abs/2007.09554)
 
