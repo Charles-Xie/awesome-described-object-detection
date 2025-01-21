@@ -41,7 +41,9 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
-- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (ECCV 2024) [[paper]](https://arxiv.org/abs/2403.12488)
+- RelationLMM: Large Multimodal Model as Open and Versatile Visual Relationship Generalist (TPAMI 2025) [[paper]](https://ieeexplore.ieee.org/document/10845195)
+
+- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (ECCV 2024) [[paper]](https://arxiv.org/abs/2403.12488) [[code (TBD)]](https://github.com/yixuan730/DetToolChain)
 
 - Learning Compositional Language-based Object Detection with Diffusion-based Synthetic Data (CVPR 2024 Workshop) [[paper]](https://generative-vision.github.io/workshop-CVPR-24/papers/28.pdf)
 
@@ -75,7 +77,7 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 - SPHINX: The Joint Mixing of Weights, Tasks, and Visual Embeddings for Multi-modal Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.07575) [[code]](https://github.com/Alpha-VLLM/LLaMA2-Accessory)![Star](https://img.shields.io/github/stars/Alpha-VLLM/LLaMA2-Accessory.svg?style=social&label=Star)
 
-- Pink: Unveiling the Power of Referential Comprehension for Multi-modal LLMs (arxiv 2023) [[paper]](https://arxiv.org/abs/2310.00582) [[code (TBD)]](https://github.com/SY-Xuan/Pink)![Star](https://img.shields.io/github/stars/SY-Xuan/Pink.svg?style=social&label=Star)
+- Pink: Unveiling the Power of Referential Comprehension for Multi-modal LLMs (CVPR 2024) [[paper]](https://arxiv.org/abs/2310.00582) [[code]](https://github.com/SY-Xuan/Pink)![Star](https://img.shields.io/github/stars/SY-Xuan/Pink.svg?style=social&label=Star)
 
 - Griffon: Spelling out All Object Locations at Any Granularity with Large Language Models (arxiv 2023) [[paper]](https://arxiv.org/abs/2311.14552) [[code]](https://github.com/jefferyZhan/Griffon)![Star](https://img.shields.io/github/stars/jefferyZhan/Griffon.svg?style=social&label=Star)
 
