@@ -43,7 +43,11 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 
 - RelationLMM: Large Multimodal Model as Open and Versatile Visual Relationship Generalist (TPAMI 2025) [[paper]](https://ieeexplore.ieee.org/document/10845195)
 
-- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (ECCV 2024) [[paper]](https://arxiv.org/abs/2403.12488) [[code (TBD)]](https://github.com/yixuan730/DetToolChain)
+- A Multimodal Chain of Tools for Described Object Detection (NeurIPS 2024 Workshop) [[paper]](https://openreview.net/pdf?id=N4i4PfcrK6)
+
+- Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection (ECCV 2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03307.pdf)
+
+- DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (ECCV 2024) [[paper]](https://arxiv.org/abs/2403.12488) [[code]](https://github.com/yixuan730/DetToolChain)
 
 - Learning Compositional Language-based Object Detection with Diffusion-based Synthetic Data (CVPR 2024 Workshop) [[paper]](https://generative-vision.github.io/workshop-CVPR-24/papers/28.pdf)
 
@@ -54,6 +58,8 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 - Generating Enhanced Negatives for Training Language-Based Object Detectors (CVPR 2024) [[paper]](https://arxiv.org/abs/2401.00094) [[code]](https://github.com/xiaofeng94/Gen-Enhanced-Negs)
 
 - Aligning and Prompting Everything All at Once for Universal Visual Perception (arxiv 2023) [[paper]](https://arxiv.org/abs/2312.02153) [[code]](https://github.com/shenyunhang/APE)![Star](https://img.shields.io/github/stars/shenyunhang/APE.svg?style=social&label=Star)
+
+- DesCo: Learning Object Recognition with Rich Language Descriptions (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2306.14060) [[code]](https://github.com/liunian-harold-li/DesCo)
 
 - Described Object Detection: Liberating Object Detection with Flexible Expressions (NeurIPS 2023) [[paper]](https://arxiv.org/abs/2307.12813) [[dataset]](https://github.com/shikras/d-cube/) [[code]](https://github.com/shikras/d-cube/)![Star](https://img.shields.io/github/stars/shikras/d-cube.svg?style=social&label=Star)
 
@@ -103,6 +109,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+
+- Sampling Bag of Views for Open-Vocabulary Object Detection (arxiv 2024) [[paper]](https://arxiv.org/pdf/2412.18273)
 
 - Multimodal Inplace Prompt Tuning for Open-set Object Detection (ACM MM 2024) [[paper]](https://openreview.net/pdf?id=J6c0sRkWop)
 
@@ -267,6 +275,10 @@ Note that some generic object detection methods accepting language prompts are a
 
 ## Referring Expression Comprehension/Visual Grounding
 
+- LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Models for Referring Expression Comprehension (ECCV 2024 Workshop) [[paper]](https://arxiv.org/abs/2409.11919)
+
+- MC-Bench: A Benchmark for Multi-Context Visual Grounding in the Era of MLLMs [[paper]](https://github.com/XuYunqiu/MC-Bench) [[code]](https://github.com/XuYunqiu/MC-Bench)
+
 - Visual Grounding with Dual Knowledge Distillation (TCSVT 2024) [[paper]](https://ieeexplore.ieee.org/abstract/document/10543065)
 
 - Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.13013) [[code]](https://github.com/FoundationVision/Groma)
@@ -430,6 +442,7 @@ This part is still in progress.
 
 Some survey papers regarding relevant tasks (open-vocabulary learning, etc.)
 
+- Towards Visual Grounding: A Survey (arxiv 2024) [[paper]](https://arxiv.org/abs/2412.20206) [[repo]](https://github.com/linhuixiao/Awesome-Visual-Grounding)
 - Towards Open Vocabulary Learning: A Survey (TPAMI 2024) [[paper]](https://arxiv.org/abs/2306.15880) [[repo]](https://github.com/jianzongwu/Awesome-Open-Vocabulary)
 - A Survey on Open-Vocabulary Detection and Segmentation: Past, Present, and Future (arxiv 2023) [[paper]](https://arxiv.org/abs/2307.09220)
 - Referring Expression Comprehension: A Survey of Methods and Datasets (TMM 2020) [[paper]](https://arxiv.org/abs/2007.09554)
