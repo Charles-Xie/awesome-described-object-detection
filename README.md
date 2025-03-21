@@ -45,6 +45,8 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 
 - A Multimodal Chain of Tools for Described Object Detection (NeurIPS 2024 Workshop) [[paper]](https://openreview.net/pdf?id=N4i4PfcrK6)
 
+- RefDrone: A Challenging Benchmark for Referring Expression Comprehension in Drone Scenes (arxiv 2025) [[paper]](https://arxiv.org/abs/2502.00392) [[code]](https://github.com/sunzc-sunny/refdrone)
+
 - Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection (ECCV 2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03307.pdf)
 
 - DetToolChain: A New Prompting Paradigm to Unleash Detection Ability of MLLM (ECCV 2024) [[paper]](https://arxiv.org/abs/2403.12488) [[code]](https://github.com/yixuan730/DetToolChain)
@@ -110,9 +112,13 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
 
+- A Hierarchical Semantic Distillation Framework for Open-Vocabulary Object Detection (TMM 2025) [[paper]](https://arxiv.org/abs/2503.10152)
+
 - Sampling Bag of Views for Open-Vocabulary Object Detection (arxiv 2024) [[paper]](https://arxiv.org/pdf/2412.18273)
 
 - Multimodal Inplace Prompt Tuning for Open-set Object Detection (ACM MM 2024) [[paper]](https://openreview.net/pdf?id=J6c0sRkWop)
+
+- CLIFF: Continual Latent Diffusion for Open-Vocabulary Object Detection (ECCV 2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07221.pdf) [[code]](https://github.com/CUHK-AIM-Group/CLIFF)
 
 - OpenSight: A Simple Open-Vocabulary Framework for LiDAR-Based Object Detection (ECCV 2024) [[paper]](https://link.springer.com/chapter/10.1007/978-3-031-72907-2_1)
 
