@@ -112,6 +112,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
 
+- Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection (ICLR 2025) [[paper]](https://arxiv.org/abs/2503.11005)
+
 - A Hierarchical Semantic Distillation Framework for Open-Vocabulary Object Detection (TMM 2025) [[paper]](https://arxiv.org/abs/2503.10152)
 
 - Sampling Bag of Views for Open-Vocabulary Object Detection (arxiv 2024) [[paper]](https://arxiv.org/pdf/2412.18273)
