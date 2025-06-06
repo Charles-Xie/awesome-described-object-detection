@@ -41,11 +41,17 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
+- VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model (arxiv 2025) [[paper]](https://arxiv.org/abs/2504.07615) [[code]](https://github.com/om-ai-lab/VLM-R1)
+
+- ROD-MLLM: Towards More Reliable Object Detection in Multimodal Large Language Models (CVPR 2025) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yin_ROD-MLLM_Towards_More_Reliable_Object_Detection_in_Multimodal_Large_Language_CVPR_2025_paper.pdf)
+
 - RelationLMM: Large Multimodal Model as Open and Versatile Visual Relationship Generalist (TPAMI 2025) [[paper]](https://ieeexplore.ieee.org/document/10845195)
 
 - A Multimodal Chain of Tools for Described Object Detection (NeurIPS 2024 Workshop) [[paper]](https://openreview.net/pdf?id=N4i4PfcrK6)
 
 - RefDrone: A Challenging Benchmark for Referring Expression Comprehension in Drone Scenes (arxiv 2025) [[paper]](https://arxiv.org/abs/2502.00392) [[code]](https://github.com/sunzc-sunny/refdrone)
+
+- Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models (ECCV 2024) [[paper]](https://arxiv.org/abs/2404.13013) [[code]](https://github.com/FoundationVision/Groma)
 
 - Weak-to-Strong Compositional Learning from Generative Models for Language-based Object Detection (ECCV 2024) [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03307.pdf)
 
@@ -115,6 +121,8 @@ Note that some generic object detection methods accepting language prompts are a
 - Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection (ICLR 2025) [[paper]](https://arxiv.org/abs/2503.11005)
 
 - A Hierarchical Semantic Distillation Framework for Open-Vocabulary Object Detection (TMM 2025) [[paper]](https://arxiv.org/abs/2503.10152)
+
+- Enhancing Novel Object Detection via Cooperative Foundational Models （WACV 2025) [[paper]](https://arxiv.org/abs/2311.12068) [[code]](https://github.com/rohit901/cooperative-foundational-models)
 
 - Sampling Bag of Views for Open-Vocabulary Object Detection (arxiv 2024) [[paper]](https://arxiv.org/pdf/2412.18273)
 
@@ -283,13 +291,13 @@ Note that some generic object detection methods accepting language prompts are a
 
 ## Referring Expression Comprehension/Visual Grounding
 
+- TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models (arxiv 2025) [[paper]](https://arxiv.org/abs/2505.23769) [[code]](https://github.com/avaxiao/TextRegion)
+
 - LLM-wrapper: Black-Box Semantic-Aware Adaptation of Vision-Language Models for Referring Expression Comprehension (ECCV 2024 Workshop) [[paper]](https://arxiv.org/abs/2409.11919)
 
-- MC-Bench: A Benchmark for Multi-Context Visual Grounding in the Era of MLLMs [[paper]](https://github.com/XuYunqiu/MC-Bench) [[code]](https://github.com/XuYunqiu/MC-Bench)
+- MC-Bench: A Benchmark for Multi-Context Visual Grounding in the Era of MLLMs (arxiv 2025) [[paper]](https://arxiv.org/abs/2410.12332) [[code]](https://github.com/XuYunqiu/MC-Bench)
 
 - Visual Grounding with Dual Knowledge Distillation (TCSVT 2024) [[paper]](https://ieeexplore.ieee.org/abstract/document/10543065)
-
-- Groma: Localized Visual Tokenization for Grounding Multimodal Large Language Models (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.13013) [[code]](https://github.com/FoundationVision/Groma)
 
 - HiVG: Hierarchical Multimodal Fine-grained Modulation for Visual Grounding (arxiv 2024) [[paper]](https://arxiv.org/abs/2404.13400) [[code]](https://github.com/linhuixiao/HiVG)
 
