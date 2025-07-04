@@ -41,6 +41,8 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
+- Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels (CVPR 2025) [[paper]](https://arxiv.org/abs/2505.13788)
+
 - VLM-R1: A Stable and Generalizable R1-style Large Vision-Language Model (arxiv 2025) [[paper]](https://arxiv.org/abs/2504.07615) [[code]](https://github.com/om-ai-lab/VLM-R1)
 
 - ROD-MLLM: Towards More Reliable Object Detection in Multimodal Large Language Models (CVPR 2025) [[paper]](https://openaccess.thecvf.com/content/CVPR2025/papers/Yin_ROD-MLLM_Towards_More_Reliable_Object_Detection_in_Multimodal_Large_Language_CVPR_2025_paper.pdf)
