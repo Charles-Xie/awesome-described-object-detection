@@ -39,7 +39,7 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 ## Described Object Detection
 
-A leaderboard for update-to-date DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
+- Re-Aligning Language to Visual Objects with an Agentic Workflow (ICLR 2025) [[paper]](https://arxiv.org/abs/2503.23508) [[code]](https://github.com/FishAndWasabi/Real-LOD)
 
 - Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels (CVPR 2025) [[paper]](https://arxiv.org/abs/2505.13788)
 
@@ -79,7 +79,7 @@ A leaderboard for update-to-date DOD methods are available [here](https://github
 
 - Grounded Language-Image Pre-training (CVPR 2022) [[paper]](https://arxiv.org/abs/2112.03857) [[code]](https://github.com/microsoft/GLIP)![Star](https://img.shields.io/github/stars/microsoft/GLIP.svg?style=social&label=Star)
 
-
+A leaderboard for DOD methods are available [here](https://github.com/shikras/d-cube/tree/main/eval_sota).
 
 ### Methods with Potential for DOD
 
