@@ -119,6 +119,11 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+- Dynamic-DINO: Fine-Grained Mixture of Experts Tuning for Real-time Open-Vocabulary Object Detection (ICCV 2025) [[paper]](https://arxiv.org/abs/2507.17436) [[code]](https://github.com/wengminghe/Dynamic-DINO)
+
+- Benefit From Seen: Enhancing Open-Vocabulary Object Detection by Bridging Visual and Textual Co-Occurrence Knowledge (ICCV 2025)
+
+- LLMDet: Learning Strong Open-Vocabulary Object Detectors under the Supervision of Large Language Models (CVPR 2025 Highlight) [[paper]](https://arxiv.org/abs/2501.18954) [[code]](https://github.com/iSEE-Laboratory/LLMDet)
 
 - Cyclic Contrastive Knowledge Transfer for Open-Vocabulary Object Detection (ICLR 2025) [[paper]](https://arxiv.org/abs/2503.11005)
 
