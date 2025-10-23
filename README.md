@@ -119,6 +119,8 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+- - DitHub: A Modular Framework for Incremental Open-Vocabulary Object Detection (NeurIPS 2025) [[paper]](https://arxiv.org/abs/2503.09271) [[code]](https://github.com/chiara-cap/DitHub)
+
 - Dynamic-DINO: Fine-Grained Mixture of Experts Tuning for Real-time Open-Vocabulary Object Detection (ICCV 2025) [[paper]](https://arxiv.org/abs/2507.17436) [[code]](https://github.com/wengminghe/Dynamic-DINO)
 
 - Benefit From Seen: Enhancing Open-Vocabulary Object Detection by Bridging Visual and Textual Co-Occurrence Knowledge (ICCV 2025)
