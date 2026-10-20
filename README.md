@@ -300,6 +300,8 @@ Note that some generic object detection methods accepting language prompts are a
 
 ## Referring Expression Comprehension/Visual Grounding
 
+- Jag: Direct Box Prediction for Efficient Visual Grounding (arxiv 2026) [[paper]](https://arxiv.org/abs/2610.13239) [[code]](https://github.com/xyzzzh/Jag)
+
 - Multi-Perspective Cross-Modal Object Encoding for Referring Expression Comprehension (TIP 2025) [[paper]](https://ieeexplore.ieee.org/abstract/document/11206016?casa_token=mLtCg0GdYpYAAAAA:x_J4SaFGFXuqdJ7YIaP_0kalsfqPazC3DaufU_q8B93iLs2xq_zMfWfLqQMcoQOnX9afQkc1cCMc) [[code]](https://github.com/freedom6927/ELR_CCS)
 
 - TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models (arxiv 2025) [[paper]](https://arxiv.org/abs/2505.23769) [[code]](https://github.com/avaxiao/TextRegion)
