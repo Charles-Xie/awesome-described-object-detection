@@ -39,6 +39,12 @@ If you find any work or resources missing, please send a [pull requests](https:/
 
 ## Described Object Detection
 
+- Consistency Beyond Contrast: Enhancing Open-Vocabulary Object Detection Robustness via Contextual Consistency Learning (CVPR 2026) [[paper]](https://arxiv.org/abs/2603.26179) [[code (TBD)]](https://github.com/bozhao-li/CCL)
+
+- What "Not" to Detect: Negation-Aware VLMs via Structured Reasoning and Token Merging (ICLR 2026) [[paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/41c38a83bd97ba28505b4def82676ba5-Abstract-Conference.html)
+
+- Rex-Thinker: Grounded Object Referring via Chain-of-Thought Reasoning (ICLR 2026) [[paper]](https://proceedings.iclr.cc/paper_files/paper/2026/hash/f6770316cf8aa1524f6282d6a147dd0d-Abstract-Conference.html) [[code]](https://github.com/IDEA-Research/Rex-Thinker)
+
 - Re-Aligning Language to Visual Objects with an Agentic Workflow (ICLR 2025) [[paper]](https://arxiv.org/abs/2503.23508) [[code]](https://github.com/FishAndWasabi/Real-LOD)
 
 - Ground-V: Teaching VLMs to Ground Complex Instructions in Pixels (CVPR 2025) [[paper]](https://arxiv.org/abs/2505.13788)
@@ -85,6 +91,10 @@ A leaderboard for DOD methods are available [here](https://github.com/shikras/d-
 
 These methods are either MLLM with capabilities related to detection/localization, or multi-task models handling both OD/OVD and REC. Though they are not directly handling DOD and not evaluated on DOD benchmarks in their original papers, it is possible that they obtain a performance similar to the DOD baseline.
 
+- Detect Anything via Next Point Prediction (CVPR 2026) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Jiang_Detect_Anything_via_Next_Point_Prediction_CVPR_2026_paper.html) [[code]](https://github.com/IDEA-Research/Rex-Omni)
+
+- Griffon v2: Advancing Multimodal Perception with High-Resolution Scaling and Visual-Language Co-Referring (ICCV 2025) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Zhan_Griffon_v2_Advancing_Multimodal_Perception_with_High-Resolution_Scaling_and_Visual-Language_ICCV_2025_paper.html) [[code]](https://github.com/jefferyZhan/Griffon)
+
 - Generative Region-Language Pretraining for Open-Ended Object Detection (CVPR 2024) [[paper]](https://arxiv.org/abs/2403.10191) [[code]](https://github.com/FoundationVision/GenerateU)![Star](https://img.shields.io/github/stars/FoundationVision/GenerateU.svg?style=social&label=Star)
 
 - GROUNDHOG: Grounding Large Language Models to Holistic Segmentation (CVPR 2024) [[paper]](https://arxiv.org/abs/2402.16846)
@@ -119,9 +129,20 @@ These methods are either MLLM with capabilities related to detection/localizatio
 ## Open-Vocabulary Object Detection
 
 Note that some generic object detection methods accepting language prompts are also listed here. Though they may not be evaluated on OVD benchmarks, they are essentially capable of this setting.
+
+- VLOD-TTA: Test-Time Adaptation of Vision-Language Object Detectors (ECCV 2026) [[paper]](https://arxiv.org/abs/2510.00458) [[code]](https://github.com/imatif17/VLOD-TTA)
+
+- WeDetect: Fast Open-Vocabulary Object Detection as Retrieval (CVPR 2026) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Fu_WeDetect_Fast_Open-Vocabulary_Object_Detection_as_Retrieval_CVPR_2026_paper.html) [[code]](https://github.com/WeChatCV/WeDetect)
+
+- Parameter-Efficient Semantic Augmentation for Enhancing Open-Vocabulary Object Detection (CVPR 2026) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Cao_Parameter-Efficient_Semantic_Augmentation_for_Enhancing_Open-Vocabulary_Object_Detection_CVPR_2026_paper.html)
+
+- NoOVD: Novel Category Discovery and Embedding for Open-Vocabulary Object Detection (CVPR 2026) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_NoOVD_Novel_Category_Discovery_and_Embedding_for_Open-Vocabulary_Object_Detection_CVPR_2026_paper.html)
+
 - DitHub: A Modular Framework for Incremental Open-Vocabulary Object Detection (NeurIPS 2025) [[paper]](https://arxiv.org/abs/2503.09271) [[code]](https://github.com/chiara-cap/DitHub)
 
 - Dynamic-DINO: Fine-Grained Mixture of Experts Tuning for Real-time Open-Vocabulary Object Detection (ICCV 2025) [[paper]](https://arxiv.org/abs/2507.17436) [[code]](https://github.com/wengminghe/Dynamic-DINO)
+
+- YOLOE: Real-Time Seeing Anything (ICCV 2025) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Wang_YOLOE_Real-Time_Seeing_Anything_ICCV_2025_paper.html) [[code]](https://github.com/THU-MIG/yoloe)
 
 - Benefit From Seen: Enhancing Open-Vocabulary Object Detection by Bridging Visual and Textual Co-Occurrence Knowledge (ICCV 2025)
 
@@ -302,7 +323,17 @@ Note that some generic object detection methods accepting language prompts are a
 
 - Jag: Direct Box Prediction for Efficient Visual Grounding (arxiv 2026) [[paper]](https://arxiv.org/abs/2610.13239) [[code]](https://github.com/xyzzzh/Jag)
 
+- GroundingME: Exposing the Visual Grounding Gap in MLLMs through Multi-Dimensional Evaluation (CVPR 2026) [[paper]](https://arxiv.org/abs/2512.17495) [[code]](https://github.com/lirang04/GroundingME)
+
+- VIRO: Robust and Efficient Neuro-Symbolic Reasoning with Verification for Referring Expression Comprehension (CVPR 2026) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Park_VIRO_Robust_and_Efficient_Neuro-Symbolic_Reasoning_with_Verification_for_Referring_CVPR_2026_paper.html) [[code (TBD)]](https://github.com/ml-postech/VIRO-neuro-symbolic-reasoning-with-verification)
+
+- Heuristic-inspired Reasoning Priors Facilitate Data-Efficient Referring Object Detection (CVPR 2026) [[paper]](https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Heuristic-inspired_Reasoning_Priors_Facilitate_Data-Efficient_Referring_Object_Detection_CVPR_2026_paper.html) [[code (TBD)]](https://github.com/xuzhang1199/HeROD)
+
 - Multi-Perspective Cross-Modal Object Encoding for Referring Expression Comprehension (TIP 2025) [[paper]](https://ieeexplore.ieee.org/abstract/document/11206016?casa_token=mLtCg0GdYpYAAAAA:x_J4SaFGFXuqdJ7YIaP_0kalsfqPazC3DaufU_q8B93iLs2xq_zMfWfLqQMcoQOnX9afQkc1cCMc) [[code]](https://github.com/freedom6927/ELR_CCS)
+
+- Leveraging Debiased Cross-modal Attention Maps and Code-based Reasoning for Zero-shot Referring Expression Comprehension (ICCV 2025) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Chen_Leveraging_Debiased_Cross-modal_Attention_Maps_and_Code-based_Reasoning_for_Zero-shot_ICCV_2025_paper.html)
+
+- Referring to Any Person (ICCV 2025) [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Jiang_Referring_to_Any_Person_ICCV_2025_paper.html) [[code]](https://github.com/IDEA-Research/RexSeek)
 
 - TextRegion: Text-Aligned Region Tokens from Frozen Image-Text Models (arxiv 2025) [[paper]](https://arxiv.org/abs/2505.23769) [[code]](https://github.com/avaxiao/TextRegion)
 
